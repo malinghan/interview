@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/proxy0/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/proxy0/AccountCglibProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/proxy0/AccountImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy0Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/proxy0/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/stati/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/stati/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/stati/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/stati/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/HashCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/hash/HashCodeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,33 +47,33 @@
         <counts>
           <entry key="Father" value="1" />
           <entry key="class" value="1" />
-          <entry key="java" value="77" />
+          <entry key="java" value="89" />
           <entry key="kt" value="1" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="77" />
+          <entry key="JAVA" value="89" />
           <entry key="Kotlin" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="5027" />
+          <entry key="java" value="6146" />
           <entry key="kt" value="5" />
-          <entry key="md" value="112" />
+          <entry key="md" value="249" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5027" />
+          <entry key="JAVA" value="6146" />
           <entry key="Kotlin" value="5" />
-          <entry key="Markdown" value="112" />
+          <entry key="Markdown" value="249" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -70,62 +82,106 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/data/tree/LevelTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/data/linklist/Reverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="134">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base/seriable/TestSerialization.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="195">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base/stati/Father.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy0Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountCglibProxyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding>
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="e#212#213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy1Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base/stati/Son.java">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lock/RedisLockOptimize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="-380">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#839#840#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base/seriable/ArrayListTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/hash/HashCodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,7 +228,6 @@
         <option value="$PROJECT_DIR$/src/main/java/data/tree/LevelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/data/tree/BinTreePrint.java" />
         <option value="$PROJECT_DIR$/src/main/java/data/tree/SnackTreePrint.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/base/seriable/SeriableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/seriable/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/seriable/UIDTest.java" />
@@ -197,6 +252,16 @@
         <option value="$PROJECT_DIR$/src/main/java/base/static/Father.kt" />
         <option value="$PROJECT_DIR$/src/main/java/base/stati/Father.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/stati/Son.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/AccountImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy0Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/AccountCglibProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy1Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -207,10 +272,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="y" value="-180" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="803" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -258,8 +322,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="stati" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="linklist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lengthOfLongestSubstring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +371,7 @@
     <property name="SearchEverywhereHistoryKey" value="FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569399922367" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569405419974" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -308,13 +396,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Son">
-    <configuration name="RedisLockOptimize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lock.RedisLockOptimize" />
+  <component name="RunManager" selected="Application.AccountProxy1Test">
+    <configuration name="AccountProxy0Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.proxy0.AccountProxy0Test" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lock.*" />
+          <option name="PATTERN" value="base.proxy0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountProxy1Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.proxy0.AccountProxy1Test" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.proxy0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.proxy0.AccountProxyTest" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.proxy0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,19 +449,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.lengthOfLongestSubstring.Solution" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.lengthOfLongestSubstring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.stati.Son" />
       <module name="interview" />
@@ -361,33 +462,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEqualsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.equals.StringEqualsTest" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.equals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StringEqualsTest" />
-      <item itemvalue="Application.RedisLockOptimize" />
-      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Reverse" />
       <item itemvalue="Application.Son" />
+      <item itemvalue="Application.AccountProxyTest" />
+      <item itemvalue="Application.AccountProxy0Test" />
+      <item itemvalue="Application.AccountProxy1Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountProxy1Test" />
+        <item itemvalue="Application.AccountProxy0Test" />
+        <item itemvalue="Application.AccountProxyTest" />
         <item itemvalue="Application.Son" />
         <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.RedisLockOptimize" />
-        <item itemvalue="Application.StringEqualsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -411,18 +499,18 @@
       <workItem from="1569204813113" duration="3718000" />
       <workItem from="1569263170193" duration="3666000" />
       <workItem from="1569309731414" duration="429000" />
-      <workItem from="1569377137714" duration="4990000" />
+      <workItem from="1569377137714" duration="7831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44000000" />
+    <option name="totallyTimeSpent" value="46841000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-180" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14802982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -431,15 +519,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32348806" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.33960396" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.3385542" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.29108912" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.35421687" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.22772278" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32574257" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3253012" />
       <window_info anchor="bottom" id="JProfiler" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -488,12 +576,6 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lock/RedisLockOptimize.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/data/linklist/Reverse.java</url>
           <line>35</line>
           <properties />
@@ -503,69 +585,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2205">
-          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5805">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/seriable/UIDTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/seriable/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/seriable/StoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/ObjectStreamClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="1406" column="9" selection-start-line="1406" selection-start-column="9" selection-end-line="1406" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/seriable/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -614,13 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/HashCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -776,27 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lock/RedisLockOptimize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/lengthOfLongestSubstring/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/linklist/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -855,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/stati/Son.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="690">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding>
             <element signature="e#286#287#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
@@ -865,6 +860,118 @@
             <element signature="e#839#840#0" expanded="true" />
             <element signature="e#879#880#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy0Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountCglibProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/hash/HashCodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lock/RedisLockOptimize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/linklist/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/proxy0/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
