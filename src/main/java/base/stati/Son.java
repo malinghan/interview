@@ -20,6 +20,11 @@ package base.stati;
  * 1. 先加载常量池(父 -> 子)
  * 2. 再调用 <init>方法,如果有继承关系，会触发父类的<init>,包括初始化非静态代码和构造函数
  * 3. 再调用 子类的<init>方法,初始化子类的非静态代码和构造函数
+ *
+ * static作用：
+ *    - static field  加载阶段，到metaspace的静态区，并有初始化值
+ *    - static method 加载阶段，到metaspace的静态方法
+ *    - static code   加载阶段，到metaspace的静态方法
  **/
 public class Son extends Father{
 
@@ -39,9 +44,16 @@ public class Son extends Father{
         System.out.println(8);
     }
 
+    public static void staticPrint(){
+        System.out.println("19");
+    }
+
     public static void main(String[] args) {
         Father father = new Son();
 //        Son father = new Son();
         father.print();
+        Son.staticPrint();
     }
+
+
 }

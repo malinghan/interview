@@ -24,4 +24,8 @@ public class Father {
     public void print(){
         System.out.println("4");
     }
+
+    public static void staticPrint(){
+        System.out.println("18");
+    }
 }
