@@ -94,7 +94,9 @@ public class LRUCache {
 ### 解法2:基于LinkedHashMap的实现
 
 #### 思路
-HashMap+双向链表？这不就是LinkedHashMap吗！
+- HashMap+双向链表？这不就是LinkedHashMap吗！
+- 将 accessOrder 设为true，他就会在get和put操作时进行lru相关的操作
+- removeEldestEntry如果大于capacity就开始移除
 #### 代码
 
 ```java
