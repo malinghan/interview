@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/模板.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/image/LRU.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/geektime/LRU缓存的实现.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/geektime/LRU缓存的实现.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -78,15 +75,15 @@
           <entry key="dummy" value="2" />
           <entry key="java" value="8513" />
           <entry key="kt" value="5" />
-          <entry key="md" value="1651" />
+          <entry key="md" value="1693" />
           <entry key="xml" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8538" />
+          <entry key="JAVA" value="8539" />
           <entry key="Kotlin" value="5" />
-          <entry key="Markdown" value="1626" />
+          <entry key="Markdown" value="1667" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="70" />
         </counts>
@@ -114,8 +111,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/geektime/LRU缓存的实现.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="480">
-                <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <first_editor relative-caret-position="-842">
+                <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -353,7 +350,7 @@
     <property name="SearchEverywhereHistoryKey" value="LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577173232330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577174372787" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -497,7 +494,7 @@
       <workItem from="1576488497443" duration="252000" />
       <workItem from="1576744821395" duration="634000" />
       <workItem from="1576806855772" duration="197000" />
-      <workItem from="1576953048618" duration="24344000" />
+      <workItem from="1576953048618" duration="24921000" />
     </task>
     <servers />
   </component>
@@ -534,10 +531,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81844000" />
+    <option name="totallyTimeSpent" value="82421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.16932908" />
       <window_info id="Structure" order="1" sideWeight="0.5014663" side_tool="true" weight="0.16932908" />
@@ -556,7 +554,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" visible="true" weight="0.21584159" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" visible="true" weight="0.2029703" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.22772278" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32475248" />
@@ -988,6 +986,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Group Containers/7D498F54KM.com.yinxiang.Mac/Evernote/quick-note/24746779-personal-app.yinxiang.com/quick-note-zXns2s/attachment--CTGMzs/screenshot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/geektime/模板.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -998,14 +999,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Group Containers/7D498F54KM.com.yinxiang.Mac/Evernote/quick-note/24746779-personal-app.yinxiang.com/quick-note-zXns2s/attachment--CTGMzs/screenshot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/geektime/LRU缓存的实现.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <first_editor relative-caret-position="-842">
+            <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
