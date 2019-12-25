@@ -13,10 +13,12 @@ public class RemoveNthFromEnd {
         ListNode pre = null;
         ListNode fast = head;
         if(n == 1){
-            while(fast.next != null){
+            while(fast.next.next != null){
                 fast = fast.next;
             }
-            return fast;
+            ListNode tmep =  fast.next;
+            fast.next = null;
+            return tmep;
         }else {
             int c = 0;
             while(c != (n -1)){
@@ -46,6 +48,6 @@ public class RemoveNthFromEnd {
         head.next.next.next.next = new ListNode(5);
         head.next.next.next.next.next = new ListNode(6);
         head.next.next.next.next.next.next = new ListNode(7);
-        System.out.println(removeNthFromEnd(head,5).val);
+        System.out.println(removeNthFromEnd(head,1).val);
     }
 }
