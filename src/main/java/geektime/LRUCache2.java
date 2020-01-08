@@ -99,7 +99,7 @@ public class LRUCache2<K, V> {
 
 
     public static void main(String[] args) {
-        LRUCache2<String, String> cache = new LRUCache2<>(3);
+        LRUCache2<String, String> cache = new LRUCache2(3);
         cache.put("one", "1");
         cache.put("tow", "2");
         cache.put("three", "3");

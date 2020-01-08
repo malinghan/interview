@@ -2,10 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/ShellSort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bean/TimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/geektime/LRUCache2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/geektime/LRUCache2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/interview.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/bean/copy/BeanCopierUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/bean/copy/BeanCopierUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/equals/IntegerEqualsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/equals/IntegerEqualsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/equals/StringEqualsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/equals/StringEqualsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/hash/DataKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/hash/DataKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/hash/HashCodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/hash/HashCodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/hash/HashingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/hash/HashingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/proxy0/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/proxy0/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/proxy0/AccountCglibProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/proxy0/AccountCglibProxyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/proxy0/AccountImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/proxy0/AccountImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxy0Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxy0Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxy1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxy1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/proxy0/AccountProxyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/proxy0/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/proxy0/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/seriable/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/seriable/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/seriable/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/seriable/ArrayListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/seriable/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/seriable/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/seriable/Password.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/seriable/Password.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/seriable/Store2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/seriable/Store2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/seriable/StoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/seriable/StoreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/seriable/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/seriable/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/seriable/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/seriable/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/seriable/TestSerialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/seriable/TestSerialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/stati/Father.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/stati/Father.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/stati/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/stati/Son.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/linklist/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/linklist/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/linklist/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/linklist/Reverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/tree/BinTreePrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/tree/BinTreePrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/tree/LevelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/tree/LevelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/tree/SnackTreePrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/tree/SnackTreePrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/ComplexityAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/ComplexityAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/HasCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/HasCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/Josephus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/Josephus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/Josephus1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/Josephus1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/Josephus2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/Josephus2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/LRU$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/LRU$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/LRU.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/LRU.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/LRUCache2$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/LRUCache2$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/LRUCache2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/LRUCache2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/LinkReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/LinkReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/MergeTwoSortedLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/MergeTwoSortedLink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/RemoveNthFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/RemoveNthFromEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/geektime/SelectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/geektime/SelectSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/lengthOfLongestSubstring/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/lengthOfLongestSubstring/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/RedisLockOptimize$InventoryDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lock/RedisLockOptimize$InventoryDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/RedisLockOptimize$RLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lock/RedisLockOptimize$RLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lock/RedisLockOptimize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lock/RedisLockOptimize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bean/BeanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bean/BeanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bean/Pen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bean/Pen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bean/UserDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bean/UserDO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bean/Watch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bean/Watch.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,9 +123,9 @@
           <entry key="Father" value="1" />
           <entry key="class" value="3" />
           <entry key="drawio" value="1" />
-          <entry key="java" value="158" />
+          <entry key="java" value="171" />
           <entry key="kt" value="1" />
-          <entry key="md" value="41" />
+          <entry key="md" value="42" />
           <entry key="png" value="1" />
           <entry key="xml" value="5" />
         </counts>
@@ -69,9 +134,9 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="158" />
+          <entry key="JAVA" value="171" />
           <entry key="Kotlin" value="1" />
-          <entry key="Markdown" value="40" />
+          <entry key="Markdown" value="41" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="5" />
         </counts>
@@ -79,7 +144,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="11935" />
+          <entry key="java" value="12040" />
           <entry key="kt" value="5" />
           <entry key="md" value="2550" />
           <entry key="xml" value="70" />
@@ -87,7 +152,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11968" />
+          <entry key="JAVA" value="12073" />
           <entry key="Kotlin" value="5" />
           <entry key="Markdown" value="2517" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -101,20 +166,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ShellSort1.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/SelectSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/SelectSort.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/bean/BeanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="-26">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ComplexityAnalysis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/Entry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/HasCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/InsertSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/LRUCache2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="101" column="55" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-39">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/bean/TimeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,8 +305,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/AccountCglibProxyFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/proxy0/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/proxy0/AccountProxy1Test.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/base/bean/copy/BeanCopyUtils.java" />
@@ -185,7 +328,6 @@
         <option value="$PROJECT_DIR$/src/main/java/geektime/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/LRU.java" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/LRU1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/geektime/LRUCache2.java" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/模板.md" />
         <option value="$PROJECT_DIR$/src/main/java/collection/LinkedHashMap解析.md" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/LRU缓存的实现.md" />
@@ -211,6 +353,9 @@
         <option value="$PROJECT_DIR$/src/main/java/geektime/模板二.md" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/ShellSort1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geektime/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geektime/LRUCache2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bean/TimeTest.java" />
       </list>
     </option>
   </component>
@@ -226,10 +371,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="810" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -315,6 +460,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lock" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -325,7 +491,7 @@
     <property name="SearchEverywhereHistoryKey" value="LinkedHash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578377877523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578452836018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -356,22 +522,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectSort">
+  <component name="RunManager" selected="JUnit.TimeTest">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="geektime.BubbleSort" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="geektime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HasCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geektime.HasCycle" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -396,19 +549,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geektime.RemoveNthFromEnd" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="geektime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="geektime.SelectSort" />
       <module name="interview" />
@@ -422,20 +562,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bean" />
+      <option name="MAIN_CLASS_NAME" value="bean.TimeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeTest.timeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bean" />
+      <option name="MAIN_CLASS_NAME" value="bean.TimeTest" />
+      <option name="METHOD_NAME" value="timeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.HasCycle" />
-      <item itemvalue="Application.RemoveNthFromEnd" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.SelectSort" />
+      <item itemvalue="JUnit.TimeTest" />
+      <item itemvalue="JUnit.TimeTest.timeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeTest" />
+        <item itemvalue="JUnit.TimeTest.timeTest" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.RemoveNthFromEnd" />
-        <item itemvalue="Application.HasCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -475,23 +645,11 @@
       <workItem from="1577264708551" duration="37000" />
       <workItem from="1577264770753" duration="11253000" />
       <workItem from="1578367726433" duration="931000" />
-      <workItem from="1578378448686" duration="282000" />
+      <workItem from="1578378448686" duration="2810000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BeanTest_beanCopyTest - 2019.11.12 at 14h 46m 03s.xml">
-      <configuration name="BeanTest.beanCopyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanTest_beanCopyTest - 2019.11.12 at 14h 46m 26s.xml">
-      <configuration name="BeanTest.beanCopyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanTest_beanCopyTest - 2019.11.12 at 14h 46m 52s.xml">
-      <configuration name="BeanTest.beanCopyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanTest_beanCopyTest - 2019.11.12 at 14h 48m 43s.xml">
-      <configuration name="BeanTest.beanCopyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BeanTest_beanCopyTest - 2019.11.12 at 14h 49m 10s.xml">
       <configuration name="BeanTest.beanCopyTest" configurationId="JUnit" />
     </history-entry>
@@ -510,9 +668,21 @@
     <history-entry file="BeanTest_beanCopyTest - 2019.11.12 at 14h 52m 45s.xml">
       <configuration name="BeanTest.beanCopyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TimeTest - 2020.01.08 at 10h 09m 00s.xml">
+      <configuration name="TimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeTest_timeTest - 2020.01.08 at 10h 09m 21s.xml">
+      <configuration name="TimeTest.timeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeTest_timeTest - 2020.01.08 at 10h 09m 29s.xml">
+      <configuration name="TimeTest.timeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeTest - 2020.01.08 at 10h 09m 42s.xml">
+      <configuration name="TimeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109443000" />
+    <option name="totallyTimeSpent" value="111971000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,9 +694,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.24121405" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.24121405" />
       <window_info id="Structure" order="1" sideWeight="0.5014663" side_tool="true" weight="0.16932908" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -536,15 +706,15 @@
       <window_info id="ZooKeeper" order="7" weight="0.6702432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32277226" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.27425742" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.27425742" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990099" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" visible="true" weight="0.22970296" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.23267327" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.22772278" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32475248" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.26831684" />
       <window_info anchor="bottom" id="JProfiler" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -552,7 +722,7 @@
       <window_info anchor="bottom" id="Run with VisualVM" order="15" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.24973376" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -645,36 +815,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/LRU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="127" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/LRUCache2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1240">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Group Containers/7D498F54KM.com.yinxiang.Mac/Evernote/quick-note/24746779-personal-app.yinxiang.com/quick-note-zXns2s/attachment--CTGMzs/screenshot.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/collection/LinkedHashMap的实现原理/md.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/collection/ConcurrentHashMap解析.md" />
     <entry file="file://$PROJECT_DIR$/src/main/java/collection/HashMap解析.md" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
@@ -721,19 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/LRU缓存的实现.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/geektime/合并2个有序链表.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -750,13 +877,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/HasCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -803,20 +923,6 @@
         </state>
       </provider>
       <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="9" selection-start-line="9" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/geektime/MergeTwoSortedLink.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -913,13 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/geektime/模板二.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -999,15 +1098,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ShellSort1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="-27">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/LRU缓存的实现.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1522" />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ComplexityAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/HasCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/geektime/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="20">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bean/BeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/LRUCache2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="101" column="55" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bean/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
