@@ -1,5 +1,7 @@
 package geektime;
 
+import java.util.Arrays;
+
 /**
  * @author : linghan.ma
  * @Package geektime
@@ -14,7 +16,7 @@ public class QuickSort {
      * @param begin
      * @param end
      */
-    public void quickSort(int arr[], int begin, int end) {
+    public static void quickSort(int arr[], int begin, int end) {
         if (begin < end) {
             int partitionIndex = partition(arr, begin, end);
 
@@ -30,7 +32,7 @@ public class QuickSort {
      * @param end
      * @return
      */
-    private int partition(int arr[], int begin, int end) {
+    private static int partition(int arr[], int begin, int end) {
         int pivot = arr[end];
         int i = (begin-1);
 
@@ -49,6 +51,12 @@ public class QuickSort {
         arr[end] = swapTemp;
 
         return i+1;
+    }
+
+    public static void main(String []args){
+        int []arr ={1,4,2,7,9,8,3,6};
+        quickSort(arr,0,7);
+        System.out.println(Arrays.toString(arr));
     }
 
 }
