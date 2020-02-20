@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/md/【二分查找】查找第一个大于等于给定值的元素.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/【栈】最小栈 leetcode 155.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/【栈】有效的括号 leetcode 20.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/【栈】用栈实现队列 leetcode 232.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/【栈】逆波兰式求值 leetcode 150.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/BinarySearchExt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/ResultRpn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/StackMonitQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/StackSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/geektime/MinStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/geektime/StackSolution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模板.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geektime/ConsistentHash.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构和算法-极客时间笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构和算法-极客时间笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.obj" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,9 +58,9 @@
           <entry key="class" value="4" />
           <entry key="drawio" value="2" />
           <entry key="groovy" value="2" />
-          <entry key="java" value="230" />
+          <entry key="java" value="235" />
           <entry key="kt" value="1" />
-          <entry key="md" value="132" />
+          <entry key="md" value="133" />
           <entry key="png" value="1" />
           <entry key="xml" value="5" />
         </counts>
@@ -81,9 +69,9 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="230" />
+          <entry key="JAVA" value="235" />
           <entry key="Kotlin" value="1" />
-          <entry key="Markdown" value="129" />
+          <entry key="Markdown" value="130" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Scratch" value="3" />
           <entry key="XML" value="5" />
@@ -92,7 +80,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="14071" />
+          <entry key="java" value="14106" />
           <entry key="kt" value="5" />
           <entry key="md" value="3550" />
           <entry key="xml" value="70" />
@@ -100,7 +88,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14119" />
+          <entry key="JAVA" value="14154" />
           <entry key="Kotlin" value="5" />
           <entry key="Markdown" value="3496" />
           <entry key="PLAIN_TEXT" value="9" />
@@ -116,83 +104,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ShellSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lock/RedisLockOptimize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ArrayQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/bean/copy/BeanCopierUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="111">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/md/【二分查找】查找第一个大于等于给定值的元素.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="80">
-                <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/md/【链表】LRU缓存的实现.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/md/【栈】有效的括号 leetcode 20.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="380">
-                <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/BinarySearchExt.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ConsistentHash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="411">
+              <caret line="111" column="37" lean-forward="true" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#520#532#0" expanded="true" />
+                <element signature="e#1974#1975#0" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
+                <element signature="e#2198#2207#0" expanded="true" />
+                <element signature="e#2912#2920#0" expanded="true" />
+                <element signature="e#3063#3071#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/模板.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="3" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1614">
+              <caret line="157" column="11" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/SortedMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="207" column="19" selection-start-line="207" selection-start-column="19" selection-end-line="207" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -241,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/geektime/LRU.java" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/LRU1.java" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/模板.md" />
         <option value="$PROJECT_DIR$/src/main/java/collection/LinkedHashMap解析.md" />
@@ -292,6 +251,7 @@
         <option value="$PROJECT_DIR$/数据结构和算法-极客时间笔记.md" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/BinarySearchExt.java" />
         <option value="$PROJECT_DIR$/md/【二分查找】查找第一个大于等于给定值的元素.md" />
+        <option value="$PROJECT_DIR$/src/main/java/geektime/ConsistentHash.java" />
       </list>
     </option>
   </component>
@@ -308,9 +268,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="984" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -432,7 +391,7 @@
     <property name="SearchEverywhereHistoryKey" value="SkipList&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;LinkedHash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582185781142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582211189125" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -465,7 +424,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ResultRpn">
+  <component name="RunManager" selected="Application.ConsistentHash">
+    <configuration name="ConsistentHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geektime.ConsistentHash" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geektime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="geektime.MinStack" />
       <module name="interview" />
@@ -508,20 +480,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bean" />
-      <option name="MAIN_CLASS_NAME" value="bean.StringTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="interview" />
       <extension name="coverage">
@@ -540,18 +498,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StringTest.test" />
-      <item itemvalue="JUnit.StringTest (1)" />
       <item itemvalue="Application.ReverseLink" />
       <item itemvalue="Application.MinStack" />
       <item itemvalue="Application.ResultRpn" />
+      <item itemvalue="Application.ConsistentHash" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsistentHash" />
         <item itemvalue="Application.ResultRpn" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.ReverseLink" />
         <item itemvalue="JUnit.StringTest.test" />
-        <item itemvalue="JUnit.StringTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -599,7 +557,7 @@
       <workItem from="1579402112275" duration="2980000" />
       <workItem from="1579940599255" duration="7000" />
       <workItem from="1582099263593" duration="15185000" />
-      <workItem from="1582168307371" duration="4597000" />
+      <workItem from="1582168307371" duration="7452000" />
     </task>
     <servers />
   </component>
@@ -636,7 +594,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153890000" />
+    <option name="totallyTimeSpent" value="156745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,7 +624,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.2149792" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.22022161" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.26213592" />
@@ -813,23 +771,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/md/模板二.md" />
-    <entry file="file://$PROJECT_DIR$/md/插入排序.md" />
-    <entry file="file://$PROJECT_DIR$/md/希尔排序.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ShellSort1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/geektime/RemoveNthFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-349">
@@ -1104,17 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构和算法-极客时间笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-17">
-            <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1225,6 +1155,61 @@
             <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构和算法-极客时间笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="20">
+            <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lock/RedisLockOptimize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/bean/copy/BeanCopierUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/SortedMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="207" column="19" selection-start-line="207" selection-start-column="19" selection-end-line="207" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1614">
+          <caret line="157" column="11" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geektime/ConsistentHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="111" column="37" lean-forward="true" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#532#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2198#2207#0" expanded="true" />
+            <element signature="e#2912#2920#0" expanded="true" />
+            <element signature="e#3063#3071#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
