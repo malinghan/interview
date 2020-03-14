@@ -6,11 +6,11 @@
 - 链表翻转 `data.linklist`
 
 # java基础 `jdks`
-- 序列化 `base.seriable`
-- jdk和cglib的区别及实现原理 `base.proxy0`
+- 序列化 `com.someecho.base.seriable`
+- jdk和cglib的区别及实现原理 `com.someecho.base.proxy0`
    - http://ifeve.com/cglib-desc/
-- static的作用及与其相关的方法调用过程的关系  `base.stati`
-- equals和hash的关系和作用 `base.equals`
+- static的作用及与其相关的方法调用过程的关系  `com.someecho.base.stati`
+- equals和hash的关系和作用 `com.someecho.base.equals`
 
 
 # 多线程 `threads`
