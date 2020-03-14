@@ -20,6 +20,11 @@ public class ClassUtil {
         for (Class declaredClass : objClass.getDeclaredClasses()) {
             System.out.println(declaredClass.getName());
         }
+        System.out.println("getInterfaces================");
+        for (Class anInterface : objClass.getInterfaces()) {
+            System.out.println(anInterface.getName()+"==="+anInterface.getTypeName());
+
+        }
         System.out.println("getMethods================");
         for (Method method : objClass.getMethods()) {
             System.out.println(method.getName());

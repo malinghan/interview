@@ -1,5 +1,7 @@
 package com.someecho.reflections.domain;
 
+import com.sun.istack.internal.NotNull;
+
 import java.util.StringJoiner;
 
 /**
@@ -8,14 +10,20 @@ import java.util.StringJoiner;
  * @Description:
  * @date Date : 2020年03月14日 8:19 PM
  **/
-public class Foo {
+public class Foo implements SuperFoo{
     private String name;
+
+    public Foo(){}
+
+    public Foo(String name){
+        this.name = name;
+    }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(@NotNull String name) {
         this.name = name;
     }
 

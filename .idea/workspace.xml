@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/classs/ClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/util/ClassUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/jdks/reflections/反射基本操作学习.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/constructors/ConstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/SuperFoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/fields/FieldDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/loads/ClassLoaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/methods/MethodDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/LRU.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/LRU.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/link-reverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/link-reverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/util/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/util/ClassUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/jdks/reflections/反射基本操作学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/md/jdks/reflections/反射基本操作学习.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,12 +68,12 @@
           <entry key="drawio" value="2" />
           <entry key="gitignore" value="4" />
           <entry key="groovy" value="2" />
-          <entry key="java" value="276" />
+          <entry key="java" value="284" />
           <entry key="kt" value="1" />
           <entry key="md" value="146" />
           <entry key="png" value="5" />
           <entry key="pom" value="1" />
-          <entry key="xml" value="22" />
+          <entry key="xml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -79,31 +81,31 @@
           <entry key="CLASS" value="5" />
           <entry key="Git file" value="4" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="276" />
+          <entry key="JAVA" value="284" />
           <entry key="Kotlin" value="1" />
           <entry key="Markdown" value="143" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Scratch" value="3" />
-          <entry key="XML" value="23" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="4" />
+          <entry key="dummy" value="5" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="14677" />
+          <entry key="java" value="15933" />
           <entry key="kt" value="5" />
-          <entry key="md" value="3824" />
+          <entry key="md" value="3945" />
           <entry key="xml" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="14726" />
+          <entry key="JAVA" value="15982" />
           <entry key="Kotlin" value="5" />
-          <entry key="Markdown" value="3769" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Markdown" value="3890" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="RegExp" value="1" />
           <entry key="XML" value="91" />
         </counts>
@@ -116,19 +118,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdks/pom.xml">
+        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/methods/MethodDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/classs/ClassDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="1">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,10 +130,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/util/ClassUtil.java">
+        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/fields/FieldDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="324">
+              <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/loads/ClassLoaderDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -148,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="252" column="16" selection-start-line="252" selection-start-column="16" selection-end-line="252" selection-end-column="16" />
+            <state relative-caret-position="183">
+              <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
               <folding>
                 <element signature="e#8522#8523#0" expanded="true" />
                 <element signature="e#8567#8568#0" expanded="true" />
@@ -161,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="1864" column="22" selection-start-line="1864" selection-start-column="22" selection-end-line="1864" selection-end-column="22" />
+            <state relative-caret-position="183">
+              <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
               <folding>
                 <element signature="e#32636#32637#0" expanded="true" />
                 <element signature="e#32683#32684#0" expanded="true" />
@@ -172,22 +189,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/SuperFoo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+            <state relative-caret-position="160">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/md/jdks/reflections/反射基本操作学习.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="455">
-                <caret line="23" selection-start-line="23" selection-end-line="23" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/util/ClassUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/constructors/ConstructorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,9 +221,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/Foo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="169">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="14" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
                 <element signature="e#245#246#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
@@ -213,6 +242,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -251,12 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/geektime/MergeTwoSortedLink.java" />
-        <option value="$PROJECT_DIR$/src/main/java/geektime/链表中环的检测.md" />
-        <option value="$PROJECT_DIR$/src/main/java/geektime/HasCycle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/geektime/求链表中的中间节点.md" />
-        <option value="$PROJECT_DIR$/src/main/java/geektime/删除链表倒数第n个节点.md" />
-        <option value="$PROJECT_DIR$/src/main/java/geektime/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/RemoveNthFromEnd.java" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/geektime/InsertSort.java" />
@@ -298,10 +322,16 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/Foo.java" />
-        <option value="$PROJECT_DIR$/md/jdks/reflections/反射基本操作学习.md" />
         <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/classs/ClassDemo.java" />
+        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/SuperFoor.java" />
+        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/SuperFoo.java" />
         <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/util/ClassUtil.java" />
+        <option value="$PROJECT_DIR$/md/jdks/reflections/反射基本操作学习.md" />
+        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/methods/MethodDemo.java" />
+        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/fields/FieldDemo.java" />
+        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/loads/ClassLoaderDemo.java" />
+        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/Foo.java" />
+        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/constructors/ConstructorDemo.java" />
       </list>
     </option>
   </component>
@@ -421,42 +451,6 @@
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jdks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="someecho" type="462c0819:PsiDirectoryNode" />
-              <item name="reflections" type="462c0819:PsiDirectoryNode" />
-              <item name="classs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jdks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="someecho" type="462c0819:PsiDirectoryNode" />
-              <item name="reflections" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jdks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="someecho" type="462c0819:PsiDirectoryNode" />
-              <item name="reflections" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="md" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -464,6 +458,13 @@
               <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="md" type="462c0819:PsiDirectoryNode" />
               <item name="jdks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="md" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="reflections" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -474,10 +475,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Reen&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/ReentrantLock.class&#10;java.lang.Cla&#9;PSI&#9;JAVA://java.lang.Class&#10;SkipList&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;LinkedHash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
+    <property name="SearchEverywhereHistoryKey" value="Class&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java&#10;Reen&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/ReentrantLock.class&#10;java.lang.Cla&#9;PSI&#9;JAVA://java.lang.Class&#10;SkipList&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;LinkedHash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584189021461" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584192157233" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -514,7 +515,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassDemo">
+  <component name="RunManager" selected="Application.ConstructorDemo">
     <configuration name="ClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.someecho.reflections.classs.ClassDemo" />
       <module name="jdks" />
@@ -528,12 +529,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsistentHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geektime.ConsistentHash" />
-      <module name="interview" />
+    <configuration name="ClassLoaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.someecho.reflections.loads.ClassLoaderDemo" />
+      <module name="jdks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geektime.*" />
+          <option name="PATTERN" value="com.someecho.reflections.loads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -541,12 +542,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geektime.MinStack" />
-      <module name="interview" />
+    <configuration name="ConstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.someecho.reflections.constructors.ConstructorDemo" />
+      <module name="jdks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geektime.*" />
+          <option name="PATTERN" value="com.someecho.reflections.constructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -554,12 +555,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResultRpn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geektime.ResultRpn" />
-      <module name="interview" />
+    <configuration name="FieldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.someecho.reflections.fields.FieldDemo" />
+      <module name="jdks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geektime.*" />
+          <option name="PATTERN" value="com.someecho.reflections.fields.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -567,16 +568,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All Features in: reflections" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/md/jdks/reflections" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="interview" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
-      <option name="SUGGESTED_NAME" value="All Features in: reflections" />
+    <configuration name="MethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.someecho.reflections.methods.MethodDemo" />
+      <module name="jdks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="com.someecho.reflections.methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -585,19 +582,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinStack" />
-      <item itemvalue="Application.ResultRpn" />
-      <item itemvalue="Application.ConsistentHash" />
-      <item itemvalue="Cucumber java.All Features in: reflections" />
       <item itemvalue="Application.ClassDemo" />
+      <item itemvalue="Application.MethodDemo" />
+      <item itemvalue="Application.FieldDemo" />
+      <item itemvalue="Application.ClassLoaderDemo" />
+      <item itemvalue="Application.ConstructorDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructorDemo" />
+        <item itemvalue="Application.ClassLoaderDemo" />
+        <item itemvalue="Application.FieldDemo" />
+        <item itemvalue="Application.MethodDemo" />
         <item itemvalue="Application.ClassDemo" />
-        <item itemvalue="Cucumber java.All Features in: reflections" />
-        <item itemvalue="Application.ConsistentHash" />
-        <item itemvalue="Application.ResultRpn" />
-        <item itemvalue="Application.MinStack" />
       </list>
     </recent_temporary>
   </component>
@@ -646,7 +643,7 @@
       <workItem from="1579940599255" duration="7000" />
       <workItem from="1582099263593" duration="15185000" />
       <workItem from="1582168307371" duration="8708000" />
-      <workItem from="1584120108006" duration="5678000" />
+      <workItem from="1584120108006" duration="8466000" />
     </task>
     <servers />
   </component>
@@ -683,7 +680,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163679000" />
+    <option name="totallyTimeSpent" value="166467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,7 +695,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.2546495" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.2546495" />
       <window_info id="Structure" order="1" sideWeight="0.5014663" side_tool="true" weight="0.16932908" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -708,14 +705,14 @@
       <window_info id="ZooKeeper" order="7" weight="0.6702432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32168674" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.43253013" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3509015" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.27831325" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35060242" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.2" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" weight="0.3" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.22022161" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50214595" side_tool="true" weight="0.2" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.2614458" />
       <window_info anchor="bottom" id="JProfiler" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -842,6 +839,12 @@
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/fields/FieldDemo.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -858,49 +861,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/cglib/cglib/3.2.5/cglib-3.2.5.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-937" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="17" selection-start-column="17" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/bean/copy/BeanCopierUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/IntegerEqualsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/StringEqualsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/hash/HashCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1111,13 +1071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/md/datas/【栈】逆波兰式求值 leetcode 150.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1188,11 +1141,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/md/jdks/reflections/反射基本操作学习.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="571">
+            <caret line="33" selection-start-line="33" selection-end-line="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/classs/ClassDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/SuperFoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/methods/MethodDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/fields/FieldDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="59" lean-forward="true" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+          <folding>
+            <element signature="e#8522#8523#0" expanded="true" />
+            <element signature="e#8567#8568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+          <folding>
+            <element signature="e#32636#32637#0" expanded="true" />
+            <element signature="e#32683#32684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/loads/ClassLoaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/Foo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="169">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="14" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
@@ -1201,56 +1257,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/md/jdks/reflections/反射基本操作学习.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="455">
-            <caret line="23" selection-start-line="23" selection-end-line="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="1864" column="22" selection-start-line="1864" selection-start-column="22" selection-end-line="1864" selection-end-column="22" />
-          <folding>
-            <element signature="e#32636#32637#0" expanded="true" />
-            <element signature="e#32683#32684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="252" column="16" selection-start-line="252" selection-start-column="16" selection-end-line="252" selection-end-column="16" />
-          <folding>
-            <element signature="e#8522#8523#0" expanded="true" />
-            <element signature="e#8567#8568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/util/ClassUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="455">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/classs/ClassDemo.java">
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/constructors/ConstructorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="280">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
