@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 /**
  * @author : linghan.ma
  * @Package com.someecho.reflections.fields
- * @Description:
+ * @Description: 成员变量的反射类型
  * @date Date : 2020年03月14日 8:56 PM
  **/
 public class FieldDemo {

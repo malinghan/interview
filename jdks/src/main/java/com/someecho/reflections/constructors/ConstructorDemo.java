@@ -8,7 +8,7 @@ import java.lang.reflect.Type;
 /**
  * @author : linghan.ma
  * @Package com.someecho.reflections.constructors
- * @Description:
+ * @Description: 构造函数的反射测试
  * @date Date : 2020年03月14日 9:18 PM
  **/
 public class ConstructorDemo {
