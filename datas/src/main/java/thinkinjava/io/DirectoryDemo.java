@@ -10,17 +10,17 @@ import static net.mindview.util.Print.print;
 
 public class DirectoryDemo {
   public static void main(String[] args) {
-    // All directories:
+    // All directories: 递归查询所有文件和目录
     PPrint.pprint(Directory.walk(".").dirs);
-    // All files beginning with 'T'
+    // All files beginning with 'T' 打印文件名或目录名以T开头的文件
     for(File file : Directory.local(".", "T.*"))
       print(file);
     print("----------------------");
-    // All Java files beginning with 'T':
+    // All Java files beginning with 'T': 递归打印文件名或目录名以T开头的文件
     for(File file : Directory.walk(".", "T.*\\.java"))
       print(file);
     print("======================");
-    // Class files containing "Z" or "z":
+    // Class files containing "Z" or "z": 递归打印文件名或目录名包含Z or z的文件
     for(File file : Directory.walk(".",".*[Zz].*\\.class"))
       print(file);
   }

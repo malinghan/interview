@@ -8,6 +8,11 @@ import java.util.Arrays;
 import java.util.regex.Pattern;
 
 public class DirList2 {
+  /**
+   * 静态内部类
+   * @param regex
+   * @return
+   */
   public static FilenameFilter filter(final String regex) {
     // Creation of anonymous inner class:
     return new FilenameFilter() {
@@ -17,13 +22,16 @@ public class DirList2 {
       }
     }; // End of anonymous inner class
   }
+
   public static void main(String[] args) {
     File path = new File(".");
     String[] list;
+
     if(args.length == 0)
       list = path.list();
     else
       list = path.list(filter(args[0]));
+
     Arrays.sort(list, String.CASE_INSENSITIVE_ORDER);
     for(String dirItem : list)
       System.out.println(dirItem);
