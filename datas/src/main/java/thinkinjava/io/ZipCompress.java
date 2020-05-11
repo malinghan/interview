@@ -7,7 +7,6 @@ import java.io.*;
 import java.util.Enumeration;
 import java.util.zip.*;
 
-import static net.mindview.util.Print.*;
 import static net.mindview.util.Print.print;
 
 public class ZipCompress {

@@ -5,7 +5,6 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.Arrays;
 
-import static net.mindview.util.Print.*;
 import static net.mindview.util.Print.print;
 
 public class Endians {

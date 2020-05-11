@@ -3,7 +3,6 @@ package thinkinjava.io;//: io/Blip3.java
 
 import java.io.*;
 
-import static net.mindview.util.Print.*;
 import static net.mindview.util.Print.print;
 
 public class Blip3 implements Externalizable {
