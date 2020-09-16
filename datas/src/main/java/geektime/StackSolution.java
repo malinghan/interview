@@ -47,7 +47,7 @@ public class StackSolution {
                     }
                 } else {
                     // If it was an opening bracket, push to the stack.
-                    //如果是一个左括号则弹栈
+                    //如果是一个左括号则压入1栈
                     stack.push(c);
                 }
             }
