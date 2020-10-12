@@ -1,8 +1,7 @@
-package leetcode.lengthOfLongestSubstring;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.Set;
 
 /**
@@ -11,7 +10,7 @@ import java.util.Set;
  * @Description: 3
  * @date Date : 2019年09月20日 2:26 AM
  **/
-public class Solution {
+public class LengthOfLongestSubstring {
 
     public static void main(String[] args) {
         String s = "abcabcbb";
