@@ -10,6 +10,7 @@
     <modules>
         <module>jdks</module>
         <module>datas</module>
+        <module>jvm</module>
     </modules>
     <packaging>pom</packaging>
 
