@@ -14,7 +14,7 @@ import java.net.URLClassLoader;
 public class JvmAppClassLoaderAddURL {
 
     public static void main(String[] args) throws Exception {
-        String appPath = "/Users/malinghan/IdeaProjects/learning-space/interview/jvm/src/main/java";
+        String appPath = "file:/Users/malinghan/IdeaProjects/learning-space/interview/jvm/src/main/java";
         URLClassLoader urlClassLoader = (URLClassLoader) JvmAppClassLoaderAddURL.class.getClassLoader();
 
         Method addURL = URLClassLoader.class.getDeclaredMethod("addURL", URL.class);
