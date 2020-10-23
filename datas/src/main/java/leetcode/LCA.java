@@ -13,17 +13,20 @@ public class LCA {
         if(root == null || root == p || root == q) return root;
         TreeNode lson = lowestCommonAncestor(root.left,p,q);
         TreeNode rson = lowestCommonAncestor(root.right,p,q);
-        if((lson != null || rson != null)){
-            return root;
+
+        if(lson == null && rson == null) {
+          return null;
         }
 
         if(lson == null){
            return rson;
         }
+
         if(rson == null){
             return lson;
         }
-        return null;
+//        if(left != null and right != null)
+        return root;
     }
 
     public static void main(String[] args) {
@@ -35,6 +38,6 @@ public class LCA {
         root.left.right = new TreeNode(2);
         root.right.left = new TreeNode(7);
         root.right.right = new TreeNode(6);
-        System.out.println(lowestCommonAncestor(root,root.left.right,root.right));
+        System.out.println(lowestCommonAncestor(root,root.left.right,root.right.left).val);
     }
 }
