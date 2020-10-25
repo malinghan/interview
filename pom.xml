@@ -11,6 +11,7 @@
         <module>jdks</module>
         <module>datas</module>
         <module>jvm</module>
+        <module>nio</module>
     </modules>
     <packaging>pom</packaging>
 
