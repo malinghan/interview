@@ -32,7 +32,7 @@ public class HttpServer01 {
             Thread.sleep(20);
             printWriter = new PrintWriter(socket.getOutputStream(),true);
             printWriter.println("HTTP/1.1 200 OK");
-            printWriter.println("ContentType：text/html;charset=utf-8");
+            printWriter.println("ContentType: text/html;charset=utf-8");
             printWriter.println();
             printWriter.println("hello,nio");
         } catch (IOException | InterruptedException e) {
