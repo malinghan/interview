@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nio/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nio/src/main/java/com/someecho/OkHttpHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nio/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,7 +87,7 @@
           <entry key="drawio" value="2" />
           <entry key="gitignore" value="4" />
           <entry key="groovy" value="2" />
-          <entry key="java" value="477" />
+          <entry key="java" value="479" />
           <entry key="kt" value="1" />
           <entry key="md" value="184" />
           <entry key="out" value="2" />
@@ -106,7 +103,7 @@
           <entry key="CLASS" value="11" />
           <entry key="Git file" value="4" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="476" />
+          <entry key="JAVA" value="478" />
           <entry key="Kotlin" value="1" />
           <entry key="Markdown" value="181" />
           <entry key="PLAIN_TEXT" value="19" />
@@ -118,7 +115,7 @@
         <counts>
           <entry key="dummy" value="27" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="24062" />
+          <entry key="java" value="24166" />
           <entry key="kt" value="5" />
           <entry key="md" value="4055" />
           <entry key="xml" value="91" />
@@ -127,7 +124,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="24107" />
+          <entry key="JAVA" value="24211" />
           <entry key="Kotlin" value="5" />
           <entry key="Markdown" value="4000" />
           <entry key="PLAIN_TEXT" value="32" />
@@ -172,17 +169,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="299">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer03.java">
+        <entry file="file://$PROJECT_DIR$/nio/src/main/java/com/someecho/OkHttpHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="-2059">
+              <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -234,7 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/datas/src/main/java/thinkinjava/io/BufferedInputFile.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/thinkinjava/io/MemoryInput.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/thinkinjava/io/FormattedMemoryInput.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/thinkinjava/io/BasicFileOutput.java" />
@@ -285,6 +293,7 @@
         <option value="$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer01.java" />
         <option value="$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer02.java" />
         <option value="$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer03.java" />
+        <option value="$PROJECT_DIR$/nio/src/main/java/com/someecho/OkHttpHelper.java" />
       </list>
     </option>
   </component>
@@ -397,7 +406,7 @@
     <property name="SearchEverywhereHistoryKey" value="Queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/Queue.class&#10;StackSolution&#9;PSI&#9;JAVA://geektime.StackSolution&#10;Palindrome&#9;PSI&#9;JAVA://geektime.Palindrome&#10;TextF&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/TextFile.java&#10;BufferOut&#9;PSI&#9;JAVA://java.io.BufferedOutputStream&#10;Process&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/ProcessFiles.java&#10;Class&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java&#10;Reen&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/ReentrantLock.class&#10;java.lang.Cla&#9;PSI&#9;JAVA://java.lang.Class&#10;SkipList&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;LinkedHash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603599885862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603604163811" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/jdks/src/main/java" />
@@ -612,7 +621,7 @@
       <workItem from="1602999332417" duration="5892000" />
       <workItem from="1603343328524" duration="4602000" />
       <workItem from="1603565256980" duration="190000" />
-      <workItem from="1603598287381" duration="1239000" />
+      <workItem from="1603598287381" duration="2292000" />
     </task>
     <servers />
   </component>
@@ -649,7 +658,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257018000" />
+    <option name="totallyTimeSpent" value="258071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -850,20 +859,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="660" column="19" selection-start-line="660" selection-start-column="19" selection-end-line="660" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1160,15 +1155,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="299">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2035">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nio/src/main/java/com/someecho/HttpServer03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state relative-caret-position="219">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nio/src/main/java/com/someecho/OkHttpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2059">
+          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
