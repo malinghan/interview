@@ -12,6 +12,8 @@
         <module>datas</module>
         <module>jvm</module>
         <module>nio</module>
+        <module>threads</module>
+        <module>springs</module>
     </modules>
     <packaging>pom</packaging>
 

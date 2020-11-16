@@ -22,7 +22,7 @@ public class FutureSetting {
 
     static ThreadLocal<InvokeContext> argsThreadLocal = new ThreadLocal<>();
 
-    private static ConcurrentHashMap<Class, Object> proxyCache =` ` new ConcurrentHashMap<>();
+    private static ConcurrentHashMap<Class, Object> proxyCache = new ConcurrentHashMap<>();
 
 //    public static <T> T bean(T object) {
 //        final InvokeContext argsSetting = getInvokeContext();
