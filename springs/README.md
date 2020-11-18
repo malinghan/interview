@@ -2,7 +2,7 @@
 ### 基础题
 #### 1.作业要求
 1.（选做）使用Java中的动态代理，实现一个简单的AOP
-#### 实现说明
+##### 实现说明
 
 实现代码: https://github.com/malinghan/interview/tree/master/springs/src/main/java/com/someecho/spring03
 
@@ -58,13 +58,13 @@ public class AopJDKDynamicProxyFactory implements InvocationHandler {
     - @Qualifer
   
 
-#### 实现说明
+##### 实现说明
 见: /Users/malinghan/IdeaProjects/learning-space/interview/springs/src/main/java/com/someecho/spring04
 
 #### 3.作业要求
 3. (选做) 实现一个Spring XML自定义配置，配置一组Bean，例如Student/Klass/School
 
-#### 实现说明
+##### 实现说明
  不做
 
 
@@ -73,14 +73,13 @@ public class AopJDKDynamicProxyFactory implements InvocationHandler {
 #### 10.1.作业要求
 1. 选做，总结一下单例的各种写法，比较它们的优劣
 ##### 10.1 实现说明
-
+https://blog.csdn.net/itachi85/article/details/50510124
 
 #### 10.2 .作业要求
 2. 选做，maven/spring的profile机制，都有什么用法？
 
 ##### 10.2 实现说明
-https://www.jianshu.com/p/5517b51a9f0d
-
+见: springs/maven&spring的profile机制，都有什么用法.md
 
 #### 10.3 作业要求
 3. 必做，给前面课程提供的Student等Bean实现自动配置和Starter
