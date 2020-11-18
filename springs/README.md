@@ -74,18 +74,20 @@ public class AopJDKDynamicProxyFactory implements InvocationHandler {
 1. 选做，总结一下单例的各种写法，比较它们的优劣
 ##### 10.1 实现说明
 https://blog.csdn.net/itachi85/article/details/50510124
-
+见: [单例的各种写法](springs/md/单例的各种写法.md)
 #### 10.2 .作业要求
 2. 选做，maven/spring的profile机制，都有什么用法？
 
 ##### 10.2 实现说明
-见: springs/maven&spring的profile机制，都有什么用法.md
+见: [spring的profile机制](springs/md/maven&spring的profile机制，都有什么用法.md)
 
 #### 10.3 作业要求
 3. 必做，给前面课程提供的Student等Bean实现自动配置和Starter
 
 
 ##### 10.3 实现说明
+
+https://objcoding.com/2018/02/02/Costom-SpringBoot-Starter/
 
 #### 10.4 作业要求
 4. 选做，总结Hibernate与Mybatis各方面的异同点
@@ -98,6 +100,7 @@ https://blog.csdn.net/itachi85/article/details/50510124
 5. 选做，学习Mybatis-generator的用法和原理，学会自定义TypeHandler处理复杂类型
 
 ##### 10.5 实现说明
+
 
 #### 10.6 作业要求
 6. 必做，研究一下JDBC接口和儿数据库连接池，掌握他们的设计和用法

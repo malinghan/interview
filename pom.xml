@@ -14,6 +14,7 @@
         <module>nio</module>
         <module>threads</module>
         <module>springs</module>
+        <module>springboot-custom-starter</module>
     </modules>
     <packaging>pom</packaging>
 
