@@ -24,7 +24,7 @@ public class OkHttpClientTest {
             .build();
 
     public static void main(String[] args) throws Exception{
-        String url = "http://files.banshila.com/site/download?ptoken=c4390e8f422ce7f95b1e80f4e5839f1b157c0ea434c3284a354e15ba460a1874.pdf";
+        String url = "http://www.baidu.com";
 //        System.out.println(doGet(""));
         new OkHttpClientTest().run(url);
     }
