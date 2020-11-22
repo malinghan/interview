@@ -3,7 +3,7 @@ package com.someecho.base.equals;
 /**
  * @author : linghan.ma
  * @Package com.someecho.base.equals
- * @Description:
+ * @Description: 测试string的equals方法
  * @date Date : 2019年09月18日 2:16 AM
  **/
 public class StringEqualsTest {

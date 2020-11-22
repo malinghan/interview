@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * @author : linghan.ma
  * @Package com.someecho.base.hash
- * @Description:
+ * @Description: 测试hash
  * @date Date : 2019年09月18日 1:16 AM
  **/
 public class HashingTest {
@@ -25,18 +25,18 @@ public class HashingTest {
     }
 
 
-        private static Map<DataKey, Integer> getAllData() {
-            Map<DataKey, Integer> hm = new HashMap();
+    private static Map<DataKey, Integer> getAllData() {
+        Map<DataKey, Integer> hm = new HashMap();
 
-            DataKey dk = new DataKey();
-            dk.setId(1);
-            dk.setName("Pankaj");
-            System.out.println(dk.hashCode());
+        DataKey dk = new DataKey();
+        dk.setId(1);
+        dk.setName("Pankaj");
+        System.out.println(dk.hashCode());
 
-            hm.put(dk, 10);
+        hm.put(dk, 10);
 
-            return hm;
-        }
+        return hm;
+    }
 }
 
 

@@ -8,6 +8,7 @@ import java.util.List;
  * @author : linghan.ma
  * @Package com.someecho.reflections.loads
  * @Description: 如何证明方法的反射调用是动态加载？
+ * 泛型定义了List存储的是String,但是反射将其改为Integer
  * @date Date : 2020年03月14日 9:01 PM
  **/
 public class ClassLoaderDemo {

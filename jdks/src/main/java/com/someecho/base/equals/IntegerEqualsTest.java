@@ -3,7 +3,7 @@ package com.someecho.base.equals;
 /**
  * @author : linghan.ma
  * @Package com.someecho.base.equals
- * @Description:
+ * @Description: 测试常量池的关系
  * @date Date : 2019年09月18日 2:19 AM
  **/
 public class IntegerEqualsTest {
