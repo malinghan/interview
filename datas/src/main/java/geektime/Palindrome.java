@@ -4,6 +4,7 @@ package geektime;
  * @author : linghan.ma
  * @Package geektime
  * @Description: 回文链表
+ * 拓展: 求回文链表的相遇点(数学追击问题)
  * @date Date : 2019年12月24日 6:35 PM
  **/
 public class Palindrome {

@@ -47,7 +47,8 @@ class MaxSlickWindow {
 
         // remove from deq indexes of all elements
         // which are smaller than current element nums[i]
-        while (!deq.isEmpty() && nums[i] > nums[deq.getLast()])                           deq.removeLast();
+        while (!deq.isEmpty() && nums[i] > nums[deq.getLast()])
+            deq.removeLast();
     }
 
 
