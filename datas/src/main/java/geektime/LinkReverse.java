@@ -3,7 +3,7 @@ package geektime;
 /**
  * @author : linghan.ma
  * @Package geektime
- * @Description:
+ * @Description: 链表反转
  * @date Date : 2019年12月24日 7:09 PM
  * 定义一个尾部指针 tail
  * 定义p用于存放slow的next指针的地址

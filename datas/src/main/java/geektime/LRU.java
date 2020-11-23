@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 /**
  * @author : linghan.ma
  * @Package geektime
- * @Description:
+ * @Description: 实现一个Lru cache
  * @date Date : 2019年12月24日 3:10 PM
  **/
 public class LRU {
