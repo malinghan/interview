@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/BiFunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/FunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/FunctionTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/LambdaTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/LambdaTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/PredicateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/function.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/lambda.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/IntegerEqualsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/IntegerEqualsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/StringEqualsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/StringEqualsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/hash/HashingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/hash/HashingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/loads/ClassLoaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/loads/ClassLoaderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST1.java" beforeDir="false" afterPath="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST2.java" beforeDir="false" afterPath="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/src/main/java/leetcode/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/datas/src/main/java/leetcode/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,7 +101,7 @@
           <entry key="factories" value="2" />
           <entry key="gitignore" value="4" />
           <entry key="groovy" value="2" />
-          <entry key="java" value="709" />
+          <entry key="java" value="723" />
           <entry key="kt" value="2" />
           <entry key="md" value="206" />
           <entry key="out" value="2" />
@@ -116,7 +110,7 @@
           <entry key="properties" value="1" />
           <entry key="txt" value="5" />
           <entry key="xlass" value="4" />
-          <entry key="xml" value="55" />
+          <entry key="xml" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -124,22 +118,22 @@
           <entry key="CLASS" value="21" />
           <entry key="Git file" value="4" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="708" />
+          <entry key="JAVA" value="722" />
           <entry key="Kotlin" value="2" />
           <entry key="Markdown" value="203" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="1" />
           <entry key="SPI" value="1" />
           <entry key="Scratch" value="4" />
-          <entry key="XML" value="56" />
+          <entry key="XML" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Aobing" value="6" />
-          <entry key="dummy" value="69" />
+          <entry key="dummy" value="74" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="28391" />
+          <entry key="java" value="29960" />
           <entry key="kt" value="5" />
           <entry key="md" value="6092" />
           <entry key="properties" value="37" />
@@ -149,10 +143,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="28468" />
+          <entry key="JAVA" value="30037" />
           <entry key="Kotlin" value="5" />
           <entry key="Markdown" value="6005" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="PLAIN_TEXT" value="79" />
           <entry key="Properties" value="37" />
           <entry key="RegExp" value="1" />
           <entry key="SPI" value="6" />
@@ -168,74 +162,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/function.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="4620">
-                <caret line="231" selection-start-line="231" selection-end-line="231" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/lambda.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="520">
-                <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="200">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/ReferencePipeline.java">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6340">
-              <caret line="388" column="22" selection-start-line="388" selection-start-column="22" selection-end-line="388" selection-end-column="22" />
+            <state relative-caret-position="336">
+              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Long.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="53" selection-end-column="5" />
               <folding>
-                <element signature="e#14354#14355#0" expanded="true" />
-                <element signature="e#14400#14401#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#245#254#0" expanded="true" />
+                <element signature="e#718#727#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/SortedOps.java">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/LambdaTest1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/LambdaTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="296">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -244,19 +233,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="160">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="762">
+              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15360">
-              <caret line="843" column="22" selection-start-line="843" selection-start-column="22" selection-end-line="843" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -315,15 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springs/src/main/resources/springjms-receiver.xml" />
-        <option value="$PROJECT_DIR$/springs/src/main/resources/springjms-sender.xml" />
-        <option value="$PROJECT_DIR$/springs/src/main/java/com/someecho/spring04/UserDAOImpl.java" />
-        <option value="$PROJECT_DIR$/springs/src/main/java/com/someecho/spring04/UserDAO.java" />
-        <option value="$PROJECT_DIR$/springs/src/main/java/com/someecho/spring04/IUserService.java" />
-        <option value="$PROJECT_DIR$/springs/src/main/java/com/someecho/spring04/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springs/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/springs/maven/spring的profile机制，都有什么用法.md" />
-        <option value="$PROJECT_DIR$/springs/src/main/java/Singleton.java" />
         <option value="$PROJECT_DIR$/springs/单例的各种写法.md" />
         <option value="$PROJECT_DIR$/springs/README.md" />
         <option value="$PROJECT_DIR$/springs/md/自定义springboot-starter.md" />
@@ -366,6 +362,15 @@
         <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/Test3.java" />
         <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/LambdaTest2.java" />
         <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/lambda.md" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST1.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/leetcode/TreeNode.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST2.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST3.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/tree/RreOrderDemo.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java" />
       </list>
     </option>
   </component>
@@ -381,10 +386,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="862" />
-    <option name="width" value="1080" />
-    <option name="height" value="1004" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-31" />
+    <option name="width" value="1887" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -429,95 +434,46 @@
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jdks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="someecho" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="someecho" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -531,7 +487,7 @@
     <property name="SearchEverywhereHistoryKey" value="parallelStream&#9;PSI&#9;JAVA://java.util.Collection#parallelStream&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Iterable&#9;PSI&#9;JAVA://java.lang.Iterable&#10;java.util.function.Supplier&#9;PSI&#9;JAVA://java.util.function.Supplier&#10;Fun&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java&#10;Consumer&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;Executor&#9;PSI&#9;JAVA://java.util.concurrent.Executor&#10;Predicate&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Predicate.class&#10;BiF&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java&#10;Function&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java&#10;FunctionInterface&#9;PSI&#9;JAVA://java.lang.FunctionalInterface&#10;EnableAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;CglibProxyFactory&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/base/proxy0/AccountCglibProxyFactory.java&#10;ProxyFactory&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/base/proxy0/AccountProxyFactory.java&#10;synchronized&#9;PSI&#9;JAVA://lombok.Synchronized&#10;ReadWriteLo&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantReadWriteLock&#10;ReentrantL&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;AbstractQue&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;FutureS&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/proxy/FutureSetting.java&#10;Queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/Queue.class&#10;StackSolution&#9;PSI&#9;JAVA://geektime.StackSolution&#10;Palindrome&#9;PSI&#9;JAVA://geektime.Palindrome&#10;TextF&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/TextFile.java&#10;BufferOut&#9;PSI&#9;JAVA://java.io.BufferedOutputStream&#10;Process&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/ProcessFiles.java&#10;Class&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java&#10;Reen&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/ReentrantLock.class&#10;java.lang.Cla&#9;PSI&#9;JAVA://java.lang.Class&#10;SkipList&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;LinkedHash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605873291445" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606116037647" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/jdks/src/main/java" />
@@ -581,13 +537,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaTest2">
-    <configuration name="BiFunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.someecho.java8.function.BiFunctionTest" />
-      <module name="jdks" />
+  <component name="RunManager" selected="Application.PostOrderDemo">
+    <configuration name="InOrderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.InOrderDemo" />
+      <module name="datas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.someecho.java8.function.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -595,12 +551,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.someecho.java8.function.FunctionTest2" />
-      <module name="jdks" />
+    <configuration name="IsValidBST2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.IsValidBST2" />
+      <module name="datas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.someecho.java8.function.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -608,12 +564,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.someecho.java8.function.LambdaTest1" />
-      <module name="jdks" />
+    <configuration name="IsValidBST3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.IsValidBST3" />
+      <module name="datas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.someecho.java8.function.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -621,12 +577,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.someecho.java8.function.LambdaTest2" />
-      <module name="jdks" />
+    <configuration name="PostOrderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.PostOrderDemo" />
+      <module name="datas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.someecho.java8.function.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -634,12 +590,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.someecho.java8.function.PredicateTest" />
-      <module name="jdks" />
+    <configuration name="PreOrderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.PreOrderDemo" />
+      <module name="datas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.someecho.java8.function.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -648,19 +604,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FunctionTest2" />
-      <item itemvalue="Application.BiFunctionTest" />
-      <item itemvalue="Application.PredicateTest" />
-      <item itemvalue="Application.LambdaTest1" />
-      <item itemvalue="Application.LambdaTest2" />
+      <item itemvalue="Application.InOrderDemo" />
+      <item itemvalue="Application.IsValidBST2" />
+      <item itemvalue="Application.IsValidBST3" />
+      <item itemvalue="Application.PreOrderDemo" />
+      <item itemvalue="Application.PostOrderDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaTest2" />
-        <item itemvalue="Application.LambdaTest1" />
-        <item itemvalue="Application.PredicateTest" />
-        <item itemvalue="Application.BiFunctionTest" />
-        <item itemvalue="Application.FunctionTest2" />
+        <item itemvalue="Application.PostOrderDemo" />
+        <item itemvalue="Application.PreOrderDemo" />
+        <item itemvalue="Application.IsValidBST3" />
+        <item itemvalue="Application.IsValidBST2" />
+        <item itemvalue="Application.InOrderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -763,7 +719,7 @@
       <workItem from="1605690742454" duration="69000" />
       <workItem from="1605700485124" duration="3546000" />
       <workItem from="1605788180484" duration="6970000" />
-      <workItem from="1605975066857" duration="117000" />
+      <workItem from="1605975066857" duration="12007000" />
     </task>
     <servers />
   </component>
@@ -800,7 +756,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342307000" />
+    <option name="totallyTimeSpent" value="354197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,10 +768,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1080" height="1920" extended-state="0" />
+    <frame x="-31" y="0" width="1887" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3708087" visible="true" weight="0.105058365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3708087" visible="true" weight="0.29700273" />
       <window_info id="Structure" order="1" sideWeight="0.62919134" side_tool="true" weight="0.3108108" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -826,15 +782,15 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31793478" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.3111413" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3481332" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.21980414" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38193688" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4963145" weight="0.29347825" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4963145" weight="0.11860718" />
+      <window_info anchor="bottom" id="Docker" order="8" weight="0.32996973" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5036855" side_tool="true" weight="0.30298913" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.25679347" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.2546246" />
       <window_info anchor="bottom" id="JProfiler" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -848,7 +804,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49930653" weight="0.3294031" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49930653" weight="0.32922912" />
       <window_info anchor="right" id="Database" order="6" weight="0.32960597" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1010,6 +966,12 @@
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/datas/src/main/java/thinkinjava/io/UsingRandomAccessFile.java</url>
           <line>17</line>
@@ -1034,100 +996,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="179" column="36" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboots/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="44" selection-start-column="44" selection-end-column="44" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/bean/copy/BeanCopierUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/IntegerEqualsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/StringEqualsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/hash/DataKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/hash/HashCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/hash/HashingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/seriable/ArrayListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/classs/ClassDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/constructors/ConstructorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/Foo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/domain/SuperFoo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/reflections/fields/FieldDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -1175,6 +1043,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="27" selection-start-line="27" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#1891#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,13 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/FunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1231,13 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/PredicateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1318,16 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/function.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="4620">
-            <caret line="231" selection-start-line="231" selection-end-line="231" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/ReferencePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6340">
@@ -1398,10 +1245,144 @@
     <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/lambda.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="520">
+          <first_editor relative-caret-position="1">
             <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/PredicateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/FunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/java8/function/function.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="441">
+            <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="157" column="11" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+          <folding>
+            <element signature="e#5644#5645#0" expanded="true" />
+            <element signature="e#5675#5676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#245#254#0" expanded="true" />
+            <element signature="e#718#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

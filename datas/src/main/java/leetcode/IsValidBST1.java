@@ -2,12 +2,12 @@ package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.TreeSet;
+import java.util.stream.Collectors;
 
 /**
  * @author : linghan.ma
  * @Package leetcode
- * @Description:
+ * @Description: 是否是有效的BST
  * @date Date : 2020年09月27日 10:36 PM
  **/
 public class IsValidBST1 {
@@ -18,25 +18,19 @@ public class IsValidBST1 {
      * @return
      */
     public static boolean isValidBST(TreeNode root){
-        List<Integer> res =  inOrder(root,new ArrayList<>());
-        TreeSet set = new TreeSet<>(res);
-         if(new ArrayList<>(set).equals( res)){
-             return true;
-         }
-          return false;
+        List<Integer> res =  inOrder(root);
+        List<Integer> sorted = res.stream().sorted().collect(Collectors.toList());
+        return sorted.equals(res);
     }
 
-    public static List<Integer> inOrder(TreeNode root,List<Integer> res){
+    public static List<Integer> inOrder(TreeNode root){
+        List<Integer> res = new ArrayList<>();
         if(root == null){
             return new ArrayList<>();
         }
-        if(root.left != null) {
-              inOrder(root.left,res);
-        }
+        res.addAll(inOrder(root.left));
         res.add(root.val);
-        if(root.right != null) {
-              inOrder(root.right,res);
-        }
+        res.addAll(inOrder(root.right));
         return res;
     }
 
@@ -47,7 +41,7 @@ public class IsValidBST1 {
         root.right = new TreeNode(7);
         root.left.left = new TreeNode(3);
         root.left.right = new TreeNode(5);
-        System.out.println(inOrder(root,new ArrayList<>()));;
+        System.out.println(inOrder(root));;
         System.out.println(isValidBST(root));
     }
 }
