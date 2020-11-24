@@ -1,43 +1,32 @@
 package com.someecho.leetcode.leetcode1114;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 /**
  * @author : linghan.ma
  * @Package com.someecho.leetcode.leetcode1114
- * @Description:  使用AtomicInteger(官方推荐)
- * 为了防止出现并发竞争状态，需要一种具有两种功能的机制：
- * 1）关键部分的访问控制；
- * 2）通知阻塞线程。
- * @date Date : 2020年11月23日 7:20 PM
+ * @Description: 使用volatile实现
+ * @date Date : 2020年11月23日 7:57 PM
  **/
-public class Foo {
+public class VolatileFoo2 {
+    private volatile int i = 1;
     
-    private AtomicInteger firstJobDone = new AtomicInteger(0);
-    
-    private AtomicInteger secondJobDone = new AtomicInteger(0);
-    
-    public Foo(){
+    public VolatileFoo2(){
     
     }
     
     public void first(Runnable pFirst) throws InterruptedException{
+        while (i != 1);
         pFirst.run();
-        firstJobDone.incrementAndGet();
+        i = 2;
     }
     
     public void second(Runnable pSecond)  throws InterruptedException{
-        while (firstJobDone.get() != 1){
-        
-        }
+        while ( i != 2);
         pSecond.run();
-        secondJobDone.incrementAndGet();
+        i = 3;
     }
     
     public void third(Runnable pThird)  throws InterruptedException{
-        while (secondJobDone.get() != 1){
-        
-        }
+        while (i != 3);
         pThird.run();
     }
     
@@ -45,8 +34,8 @@ public class Foo {
         Runnable a = () -> System.out.println("first");
         Runnable b = () -> System.out.println("second");
         Runnable c = () -> System.out.println("third");
-        final Foo foo = new Foo();
-    
+        final VolatileFoo2 foo = new VolatileFoo2();
+        
         new Thread(() -> {
             try {
                 foo.second(b);
@@ -54,7 +43,7 @@ public class Foo {
                 e.printStackTrace();
             }
         }).start();
-    
+        
         new Thread(() -> {
             try {
                 foo.first(a);
@@ -62,7 +51,7 @@ public class Foo {
                 e.printStackTrace();
             }
         }).start();
-    
+        
         new Thread(() -> {
             try {
                 foo.third(c);
