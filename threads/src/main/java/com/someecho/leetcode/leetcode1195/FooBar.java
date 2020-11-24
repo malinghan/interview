@@ -1,4 +1,4 @@
-package com.someecho.leetcode;
+package com.someecho.leetcode.leetcode1195;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
