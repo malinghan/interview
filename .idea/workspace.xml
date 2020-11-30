@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/BlockingQueueFoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/CountDownLatchFoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/LockFoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/SemaphoreFoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/SynchronizedFoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/FooBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/SemaphoreFooBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdks/src/main/java/com/someecho/strings/StringInternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/CountDownLatchFooBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/src/main/java/com/someecho/volatiles/VolatileDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,7 +45,7 @@
     <session id="-111868547">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="74" />
+          <entry key="project.closed" value="80" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.101" value="2" />
@@ -74,10 +70,10 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.76" value="3" />
           <entry key="project.open.time.77" value="4" />
-          <entry key="project.open.time.78" value="5" />
-          <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.78" value="6" />
+          <entry key="project.open.time.79" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.80" value="3" />
+          <entry key="project.open.time.80" value="6" />
           <entry key="project.open.time.81" value="3" />
           <entry key="project.open.time.82" value="5" />
           <entry key="project.open.time.84" value="4" />
@@ -86,7 +82,7 @@
           <entry key="project.open.time.9" value="3" />
           <entry key="project.open.time.95" value="1" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="91" />
+          <entry key="project.opened" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -94,15 +90,15 @@
           <entry key="0" value="1" />
           <entry key="Father" value="1" />
           <entry key="NuanNanAobing" value="1" />
-          <entry key="class" value="21" />
+          <entry key="class" value="25" />
           <entry key="dat" value="5" />
           <entry key="drawio" value="2" />
           <entry key="factories" value="2" />
           <entry key="gitignore" value="4" />
           <entry key="groovy" value="2" />
-          <entry key="java" value="773" />
+          <entry key="java" value="816" />
           <entry key="kt" value="2" />
-          <entry key="md" value="208" />
+          <entry key="md" value="209" />
           <entry key="out" value="2" />
           <entry key="png" value="5" />
           <entry key="pom" value="1" />
@@ -114,12 +110,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="21" />
+          <entry key="CLASS" value="25" />
           <entry key="Git file" value="4" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="772" />
+          <entry key="JAVA" value="815" />
           <entry key="Kotlin" value="2" />
-          <entry key="Markdown" value="205" />
+          <entry key="Markdown" value="206" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="1" />
           <entry key="SPI" value="1" />
@@ -130,9 +126,9 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Aobing" value="6" />
-          <entry key="dummy" value="82" />
+          <entry key="dummy" value="83" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="31716" />
+          <entry key="java" value="32068" />
           <entry key="kt" value="5" />
           <entry key="md" value="6127" />
           <entry key="properties" value="37" />
@@ -142,10 +138,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="31793" />
+          <entry key="JAVA" value="32145" />
           <entry key="Kotlin" value="5" />
           <entry key="Markdown" value="6040" />
-          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="PLAIN_TEXT" value="88" />
           <entry key="Properties" value="37" />
           <entry key="RegExp" value="1" />
           <entry key="SPI" value="6" />
@@ -161,41 +157,60 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/AtomicIntegerFoo.java">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/tests/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/SemaphoreFoo.java">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/queue/MaxSlickWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="220">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/SemaphoreFooBar.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/queue/KthLargest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="-523">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/volatiles/VolatileDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/CountDownLatchFooBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
               <folding>
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/CountDownLatchFoo.java">
+        <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/SemaphoreFooBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="900">
+              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -203,11 +218,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/BlockingQueueFoo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-219">
+            <state relative-caret-position="580">
               <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -215,48 +227,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1195/FooBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="243">
+              <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/FooBar.java">
+        <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/SemaphoreFoo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-677">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/SynchronizedFoo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="74" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="311" column="29" selection-start-line="311" selection-start-column="29" selection-end-line="311" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="1298" column="22" selection-start-line="1298" selection-start-column="22" selection-end-line="1298" selection-end-column="22" />
+            <state relative-caret-position="600">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -315,10 +305,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboots/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springs/src/main/java/com/someecho/httpclient/OkHttpClientTest.java" />
-        <option value="$PROJECT_DIR$/springboots/readme.md" />
-        <option value="$PROJECT_DIR$/dubbos/src/main/java/com/someecho/dubbo01/Aobing.java" />
         <option value="$PROJECT_DIR$/dubbos/src/main/java/com/someecho/dubbo01/NuanNanAobing.java" />
         <option value="$PROJECT_DIR$/dubbos/src/main/java/com/someecho/dubbo01/ShuaiAobing.java" />
         <option value="$PROJECT_DIR$/dubbos/src/main/java/com/someecho/dubbo01/SpiDemo.java" />
@@ -366,6 +352,10 @@
         <option value="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/BlockingQueueFoo.java" />
         <option value="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/FooBar.java" />
         <option value="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/SemaphoreFooBar.java" />
+        <option value="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/CountDownLatchFooBar.java" />
+        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/strings/StringInterDemo.java" />
+        <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/strings/StringInternDemo.java" />
+        <option value="$PROJECT_DIR$/threads/src/main/java/com/someecho/volatiles/VolatileDemo.java" />
       </list>
     </option>
   </component>
@@ -382,9 +372,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="width" value="1887" />
-    <option name="height" value="1027" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -392,24 +381,23 @@
         <expanded-state>
           <State />
           <State>
-            <id>Extension Syntax IssuesMarkdown</id>
+            <id>Android</id>
           </State>
           <State>
-            <id>GitHub compatibility issuesMarkdown</id>
-          </State>
-          <State>
-            <id>Indentation and blank line issuesMarkdown</id>
+            <id>LintAndroid</id>
           </State>
           <State>
             <id>Markdown</id>
           </State>
           <State>
-            <id>Performance IssuesMarkdown</id>
-          </State>
-          <State>
-            <id>Reference issuesMarkdown</id>
+            <id>PerformanceLintAndroid</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -419,6 +407,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -429,6 +418,201 @@
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="linklist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="copy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="equals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jdks" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="threads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -459,6 +643,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -468,6 +662,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode1114" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -478,22 +673,43 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode1115" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode1195" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="someecho" type="462c0819:PsiDirectoryNode" />
+              <item name="volatiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="parallelStream&#9;PSI&#9;JAVA://java.util.Collection#parallelStream&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Iterable&#9;PSI&#9;JAVA://java.lang.Iterable&#10;java.util.function.Supplier&#9;PSI&#9;JAVA://java.util.function.Supplier&#10;Fun&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java&#10;Consumer&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;Executor&#9;PSI&#9;JAVA://java.util.concurrent.Executor&#10;Predicate&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Predicate.class&#10;BiF&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java&#10;Function&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java&#10;FunctionInterface&#9;PSI&#9;JAVA://java.lang.FunctionalInterface&#10;EnableAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;CglibProxyFactory&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/base/proxy0/AccountCglibProxyFactory.java&#10;ProxyFactory&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/base/proxy0/AccountProxyFactory.java&#10;synchronized&#9;PSI&#9;JAVA://lombok.Synchronized&#10;ReadWriteLo&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantReadWriteLock&#10;ReentrantL&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;AbstractQue&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;FutureS&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/proxy/FutureSetting.java&#10;Queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/Queue.class&#10;StackSolution&#9;PSI&#9;JAVA://geektime.StackSolution&#10;Palindrome&#9;PSI&#9;JAVA://geektime.Palindrome&#10;TextF&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/TextFile.java&#10;BufferOut&#9;PSI&#9;JAVA://java.io.BufferedOutputStream&#10;Process&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/ProcessFiles.java&#10;Class&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java&#10;Reen&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/ReentrantLock.class&#10;java.lang.Cla&#9;PSI&#9;JAVA://java.lang.Class&#10;SkipList&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;LinkedHash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606212356386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606740619709" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/jdks/src/main/java" />
@@ -503,7 +719,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -543,20 +760,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreFooBar">
-    <configuration name="BlockingQueueFoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.someecho.leetcode.leetcode1114.BlockingQueueFoo" />
-      <module name="threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.someecho.leetcode.leetcode1114.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VolatileDemo">
     <configuration name="CountDownLatchFoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.someecho.leetcode.leetcode1114.CountDownLatchFoo" />
       <module name="threads" />
@@ -570,12 +774,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FooBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.someecho.leetcode.leetcode1115.FooBar" />
+    <configuration name="FooBar (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.someecho.leetcode.leetcode1195.FooBar" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.someecho.leetcode.leetcode1115.*" />
+          <option name="PATTERN" value="com.someecho.leetcode.leetcode1195.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -596,12 +800,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreFooBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.someecho.leetcode.leetcode1115.SemaphoreFooBar" />
+    <configuration name="SynchronizedFoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.someecho.leetcode.leetcode1114.SynchronizedFoo" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.someecho.leetcode.leetcode1115.*" />
+          <option name="PATTERN" value="com.someecho.leetcode.leetcode1114.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.someecho.volatiles.VolatileDemo" />
+      <module name="threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.someecho.volatiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -610,18 +827,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FooBar (1)" />
       <item itemvalue="Application.SemaphoreFoo" />
+      <item itemvalue="Application.SynchronizedFoo" />
       <item itemvalue="Application.CountDownLatchFoo" />
-      <item itemvalue="Application.BlockingQueueFoo" />
-      <item itemvalue="Application.FooBar" />
-      <item itemvalue="Application.SemaphoreFooBar" />
+      <item itemvalue="Application.VolatileDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SemaphoreFooBar" />
-        <item itemvalue="Application.FooBar" />
-        <item itemvalue="Application.BlockingQueueFoo" />
+        <item itemvalue="Application.VolatileDemo" />
         <item itemvalue="Application.CountDownLatchFoo" />
+        <item itemvalue="Application.SynchronizedFoo" />
+        <item itemvalue="Application.FooBar (1)" />
         <item itemvalue="Application.SemaphoreFoo" />
       </list>
     </recent_temporary>
@@ -725,7 +942,12 @@
       <workItem from="1605690742454" duration="69000" />
       <workItem from="1605700485124" duration="3546000" />
       <workItem from="1605788180484" duration="6970000" />
-      <workItem from="1605975066857" duration="31540000" />
+      <workItem from="1605975066857" duration="34409000" />
+      <workItem from="1606225618692" duration="7561000" />
+      <workItem from="1606370895089" duration="1999000" />
+      <workItem from="1606480895794" duration="824000" />
+      <workItem from="1606578159737" duration="2662000" />
+      <workItem from="1606733611291" duration="1592000" />
     </task>
     <servers />
   </component>
@@ -762,7 +984,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="373730000" />
+    <option name="totallyTimeSpent" value="391237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -774,10 +996,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="0" width="1887" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3708087" visible="true" weight="0.29700273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3708087" visible="true" weight="0.31798714" />
       <window_info id="Structure" order="1" sideWeight="0.62919134" side_tool="true" weight="0.3108108" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -788,12 +1010,12 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31793478" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.23689957" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49972752" weight="0.38193688" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.30340558" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49972752" weight="0.47418478" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49536785" visible="true" weight="0.20851529" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49536785" weight="0.39266303" />
       <window_info anchor="bottom" id="Docker" order="8" weight="0.32996973" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5046322" side_tool="true" weight="0.5647443" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.25436682" />
@@ -805,6 +1027,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="bottom" id="Thumbnails" order="18" weight="0.32880434" />
+      <window_info active="true" anchor="bottom" id="JITWatch Report" order="19" visible="true" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -816,6 +1039,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="SciView" order="9" weight="0.32960597" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="10" sideWeight="0.5006935" side_tool="true" visible="true" weight="0.030950626" />
+      <window_info anchor="right" id="JITWatch" order="11" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.2081545" />
@@ -978,6 +1202,24 @@
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/CountDownLatchFooBar.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/CountDownLatchFooBar.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/CountDownLatchFooBar.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/datas/src/main/java/thinkinjava/io/UsingRandomAccessFile.java</url>
           <line>17</line>
@@ -1002,266 +1244,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="157" column="11" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
-          <folding>
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/RightSideView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="42" column="4" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#245#254#0" expanded="true" />
-            <element signature="e#718#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/leetcode/LengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-478">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/queue/KthLargest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-439">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/queue/MaxSlickWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/queue/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tests/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/StackMonitQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/StackSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/ReverseLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tests/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/ConsistentHash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1519">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/Josephus1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/Josephus2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/LinkReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/LRU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/Josephus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/ComplexityAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="26" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1195/FooBarSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1314,16 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
           <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/AtomicIntegerFoo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1341,63 +1317,289 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/CountDownLatchFoo.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="6420">
+          <caret line="359" column="15" selection-start-line="359" selection-start-column="15" selection-end-line="359" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/BlockingQueueFoo.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="3800">
+          <caret line="229" column="16" selection-start-line="229" selection-start-column="16" selection-end-line="229" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar!/lombok/extern/java/Log.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/CountDownLatchFoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/AtomicIntegerFoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1195/FooBarSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/FooBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/stati/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/stati/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/seriable/TestSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/seriable/ArrayListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61220">
+          <caret line="3166" column="25" selection-start-line="3166" selection-start-column="25" selection-end-line="3166" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/seriable/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/volatiles/VolatileDemo.class" />
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/IntegerEqualsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/equals/StringEqualsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/proxy0/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/bean/copy/BeanCopierUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1195/FooBar.java">
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="200">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/proxy0/AccountCglibProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/SynchronizedFoo.java">
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/proxy0/AccountProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/SemaphoreFoo.java">
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/strings/StringInternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/proxy0/AccountProxy0Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/main/java/com/someecho/ForLoopTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/main/java/com/someecho/GCLogAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/main/java/com/someecho/Hello.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/main/java/com/someecho/HelloByteCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/data/linklist/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="25" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/FooBar.java">
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tests/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tests/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/queue/MaxSlickWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/queue/KthLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-523">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/volatiles/VolatileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1195/FooBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="60" column="38" lean-forward="true" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/CountDownLatchFooBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
           <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/SemaphoreFooBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding>
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="900">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/BlockingQueueFoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/SemaphoreFoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1114/SynchronizedFoo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>
