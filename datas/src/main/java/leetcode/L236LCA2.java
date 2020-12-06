@@ -6,7 +6,7 @@ package leetcode;
  * @Description: 二叉树的最近公共祖先
  * @date Date : 2020年10月12日 2:01 AM
  **/
-public class LCA2 {
+public class L236LCA2 {
 
     public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 

@@ -4,27 +4,34 @@ package leetcode;
  * @author : linghan.ma
  * @Package leetcode
  * @Description: 二叉树的最近公共祖先
+ * @link https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
  * @date Date : 2020年10月12日 2:01 AM
  **/
-public class LCA3 {
+
+/**
+ *
+ */
+public class L236LCA {
 
     public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        //非递归的方式
-        while(root != null){
-            //判断两个值是否都小于根节点
-            if(p.val < root.val && q.val < root.val){
-                //直接排查左节点
-                root = root.left;
-            }
-            //判断两个值是否都大于右节点
-            else if(p.val > root.val && q.val > root.val){
-                root = root.right;
-            }
-            else{
-                return root;
-            }
+
+        if(root == null || root == p || root == q) return root;
+        TreeNode lson = lowestCommonAncestor(root.left,p,q);
+        TreeNode rson = lowestCommonAncestor(root.right,p,q);
+
+        if(lson == null && rson == null) {
+          return null;
         }
-        return null;
+
+        if(lson == null){
+           return rson;
+        }
+
+        if(rson == null){
+            return lson;
+        }
+//        if(left != null and right != null)
+        return root;
     }
 
     public static void main(String[] args) {

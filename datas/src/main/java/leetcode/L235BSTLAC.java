@@ -7,6 +7,24 @@ package leetcode;
  * @link https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree
  * @date Date : 2020年12月06日 12:50 PM
  **/
+
+/**
+ *     1. 分析题意:
+ *              二叉搜索树: left < parent < right
+ *              find common node
+ *     3. 初始化:
+ *          node = root
+ *     4. 条件判断:
+ *            while(true)
+ *               if(node == null || node == p || node == q){
+ *                     return node;
+ *               }else if(node < p && node < q)
+ *                          then node = node.right
+ *               else if(node > p && node > q)
+ *                          then node = node.left
+ *               else
+ *                  return node;
+ */
 public class L235BSTLAC {
     
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -33,7 +51,7 @@ public class L235BSTLAC {
         root.right.left = new TreeNode(5);
         root.right.right = new TreeNode(7);
         System.out.println(new L235BSTLAC().
-                lowestCommonAncestor(root,root.left.right,root.right.left).val);
+                lowestCommonAncestor(root,root.left,root.left.right).val);
     }
     
 }
