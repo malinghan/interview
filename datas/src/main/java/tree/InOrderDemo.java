@@ -11,6 +11,24 @@ import java.util.Stack;
  * @Package tree
  * @Description:
  * @date Date : 2020年11月23日 10:45 AM
+ *
+ * 思路:
+ *   中序遍历：左-根-右
+ *   每次迭代，先向左迭代,使用栈记录所有的左节点
+ *   如果发现当前节点为空,弹栈，放入结果列表, 将当前节点改为弹栈的节点(向上回溯),并将当前节点指向右边节点[这个过程就是局部的左中右]
+ *   然后继续
+ * 实现:
+ * init:
+ *     list<Integer> //存放结果
+ *     stack<TreeNode> //用于迭代时存放中间值
+ * while(!top || stack not empty)
+ *     if(!top)
+ *          stack.push(top)
+ *          top = top.left
+ *     else
+ *         list.add(stack.pop().val)
+ *         top = top.right
+ * return list;
  **/
 public class InOrderDemo {
     

@@ -12,25 +12,38 @@ import java.util.Stack;
  * @Description:
  * @date Date : 2020年11月23日 2:42 PM
  **/
+
+/**
+ * init:
+ *  list
+ *  stack
+ * while(node != null !stack.isEmpty())
+ *
+ *   if (node != null)
+ *       list.add(node.val)
+ *       stack.push(node)
+ *       node = node.left;
+ *   else
+ *      node = stack.pop();
+ *      node = node.right();
+ *
+ */
 public class PreOrderDemo {
     
     
     public static List<Integer> preOrder(TreeNode root){
         List<Integer> res = new ArrayList<>();
-        if(root == null){
-            return null;
-        }
         Stack<TreeNode> stack = new Stack<>();
-        //前序遍历 -> 深度优先
-        stack.push(root);
-        while(!stack.isEmpty()){
-            root = stack.pop();
-            //这样会把null压入stack,但是在输出时会被跳过
-            if(root != null) {
+        while(root!= null || !stack.isEmpty()){
+            if(root != null){
                 res.add(root.val);
-                stack.push(root.right);
-                stack.push(root.left);
+                stack.push(root);
+                root = root.left;
+            }else{
+                root = stack.pop();
+                root = root.right;
             }
+            
         }
         return res;
     }
@@ -58,6 +71,6 @@ public class PreOrderDemo {
         root.left.left = new TreeNode(3);
         root.left.right = new TreeNode(5);
         System.out.println(preOrder(root));
-        System.out.println(preOrder2(root));
+//        System.out.println(preOrder2(root));
     }
 }

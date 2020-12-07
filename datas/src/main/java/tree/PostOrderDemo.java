@@ -45,6 +45,21 @@ public class PostOrderDemo {
         return res;
     }
     
+    public static List<Integer> postOrder3(TreeNode root){
+        List<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack  = new Stack<>();
+        while(root!=null || !stack.isEmpty()){
+            if(root != null){
+                res.add(root.val);
+                stack.push(root);
+                root = root.right;
+            }else {
+                root = stack.pop().left;
+            }
+        }
+        return res;
+    }
+    
     /**
      *       6
      *     4   7
@@ -59,5 +74,6 @@ public class PostOrderDemo {
         root.left.right = new TreeNode(5);
         System.out.println(postOrder(root));
         System.out.println(postOrder2(root));
+        System.out.println(postOrder3(root));
     }
 }
