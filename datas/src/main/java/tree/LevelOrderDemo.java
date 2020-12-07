@@ -12,6 +12,21 @@ import java.util.List;
  * @Package tree
  * @Description:
  * @date Date : 2020年11月23日 3:13 PM
+ *
+ * 思路: 广度优先搜索
+ *   每次遍历都把当前层的node，存储在队列，同时需要记录当前层的个数，由此判断是否需要进入到下一层
+ *
+ * init:
+ *    list res
+ *    queue
+ *    queue.add(root)
+ *    while(!queue empty)
+ *       length = queue.size()
+ *       while(i== length)
+ *          root = queue.poll();
+ *          res.add(root.val)
+ *          queue.push(root.left)
+ *          queue.push(root.right)
  **/
 public class LevelOrderDemo {
     
@@ -19,17 +34,17 @@ public class LevelOrderDemo {
     public static List<Integer> levelOrder(TreeNode root){
         List<Integer> res = new ArrayList<>();
         Deque<TreeNode> queue = new LinkedList<>();
-        queue.addLast(root);
+        queue.push(root);
         //记录一个queue的size
         while(!queue.isEmpty()){
             //输出当前节点、并将下一个level的节点加入队列
             int length = queue.size();
             for (int i = 0; i < length; i++) {
-            root = queue.removeFirst();
+            root = queue.poll();
                 if(root != null) {
                     res.add(root.val);
-                    queue.addLast(root.left);
-                    queue.addLast(root.right);
+                    queue.push(root.left);
+                    queue.push(root.right);
                 }
             }
         }

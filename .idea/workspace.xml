@@ -4,8 +4,7 @@
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,7 +133,7 @@
           <entry key="Aobing" value="6" />
           <entry key="dummy" value="98" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="35602" />
+          <entry key="java" value="35924" />
           <entry key="kt" value="5" />
           <entry key="md" value="6866" />
           <entry key="properties" value="37" />
@@ -144,7 +143,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="35679" />
+          <entry key="JAVA" value="36001" />
           <entry key="Kotlin" value="5" />
           <entry key="Markdown" value="6779" />
           <entry key="PLAIN_TEXT" value="103" />
@@ -174,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="50" column="19" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="19" />
+            <state relative-caret-position="205">
+              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding>
                 <element signature="e#360#369#0" expanded="true" />
               </folding>
@@ -183,20 +182,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="-847">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+            <state relative-caret-position="797">
+              <caret line="68" column="2" lean-forward="true" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -282,7 +281,6 @@
         <option value="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST2.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/leetcode/IsValidBST3.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/tree/RreOrderDemo.java" />
-        <option value="$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/leetcode/RightSideView.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/queue/MaxSlickWindow.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/geektime/Palindrome.java" />
@@ -323,9 +321,10 @@
         <option value="$PROJECT_DIR$/datas/src/main/java/leetcode/L235BSTLAC.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/leetcode/L236LCA.java" />
         <option value="$PROJECT_DIR$/md/datas/【二叉树】二叉树的最近公共祖先 leetcode 235.md" />
-        <option value="$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java" />
       </list>
     </option>
   </component>
@@ -441,7 +440,7 @@
     <property name="SearchEverywhereHistoryKey" value="LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;parallelStream&#9;PSI&#9;JAVA://java.util.Collection#parallelStream&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Iterable&#9;PSI&#9;JAVA://java.lang.Iterable&#10;java.util.function.Supplier&#9;PSI&#9;JAVA://java.util.function.Supplier&#10;Fun&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java&#10;Consumer&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;Executor&#9;PSI&#9;JAVA://java.util.concurrent.Executor&#10;Predicate&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Predicate.class&#10;BiF&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java&#10;Function&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java&#10;FunctionInterface&#9;PSI&#9;JAVA://java.lang.FunctionalInterface&#10;EnableAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;CglibProxyFactory&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/base/proxy0/AccountCglibProxyFactory.java&#10;ProxyFactory&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/base/proxy0/AccountProxyFactory.java&#10;synchronized&#9;PSI&#9;JAVA://lombok.Synchronized&#10;ReadWriteLo&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantReadWriteLock&#10;ReentrantL&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;AbstractQue&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;FutureS&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/proxy/FutureSetting.java&#10;Queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/Queue.class&#10;StackSolution&#9;PSI&#9;JAVA://geektime.StackSolution&#10;Palindrome&#9;PSI&#9;JAVA://geektime.Palindrome&#10;TextF&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/TextFile.java&#10;BufferOut&#9;PSI&#9;JAVA://java.io.BufferedOutputStream&#10;Process&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/ProcessFiles.java&#10;Class&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java&#10;Reen&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/ReentrantLock.class&#10;java.lang.Cla&#9;PSI&#9;JAVA://java.lang.Class&#10;SkipList&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607316607152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607316699013" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -493,7 +492,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PostOrderDemo">
+  <component name="RunManager" selected="Application.LevelOrderDemo">
     <configuration name="InOrderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.InOrderDemo" />
       <module name="datas" />
@@ -507,8 +506,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L236LCA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.L236LCA2" />
+    <configuration name="L704BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.L704BinarySearch" />
       <module name="datas" />
       <extension name="coverage">
         <pattern>
@@ -520,12 +519,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L704BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.L704BinarySearch" />
+    <configuration name="LevelOrderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.LevelOrderDemo" />
       <module name="datas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -560,19 +559,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.L236LCA2" />
       <item itemvalue="Application.L704BinarySearch" />
       <item itemvalue="Application.InOrderDemo" />
       <item itemvalue="Application.PreOrderDemo" />
       <item itemvalue="Application.PostOrderDemo" />
+      <item itemvalue="Application.LevelOrderDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LevelOrderDemo" />
         <item itemvalue="Application.PostOrderDemo" />
         <item itemvalue="Application.PreOrderDemo" />
         <item itemvalue="Application.InOrderDemo" />
         <item itemvalue="Application.L704BinarySearch" />
-        <item itemvalue="Application.L236LCA2" />
       </list>
     </recent_temporary>
   </component>
@@ -690,7 +689,7 @@
       <workItem from="1607064676278" duration="11340000" />
       <workItem from="1607229012728" duration="2662000" />
       <workItem from="1607284124679" duration="597000" />
-      <workItem from="1607313509511" duration="3136000" />
+      <workItem from="1607313509511" duration="3545000" />
     </task>
     <servers />
   </component>
@@ -727,7 +726,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424648000" />
+    <option name="totallyTimeSpent" value="425057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -742,7 +741,7 @@
     <frame x="0" y="1" width="1861" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3708087" visible="true" weight="0.35268104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.3708087" visible="true" weight="0.35268104" />
       <window_info id="Structure" order="1" sideWeight="0.62919134" side_tool="true" weight="0.3108108" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -753,12 +752,12 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31786075" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.3135965" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.3135965" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49972752" weight="0.29166666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49464667" weight="0.24890351" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49464667" visible="true" weight="0.24890351" />
       <window_info anchor="bottom" id="Docker" order="8" weight="0.32996973" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50535333" side_tool="true" weight="0.39215687" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.25436682" />
@@ -1342,23 +1341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="e#360#369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PreOrderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -1368,8 +1350,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        <state relative-caret-position="797">
+          <caret line="68" column="2" lean-forward="true" selection-start-line="68" selection-start-column="2" selection-end-line="68" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="e#360#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/LevelOrderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-847">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

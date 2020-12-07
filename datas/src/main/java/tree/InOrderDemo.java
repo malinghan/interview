@@ -46,15 +46,14 @@ public class InOrderDemo {
     public static List<Integer> inorderTraversal2(TreeNode root) {
         List<Integer> list = new ArrayList<Integer>();
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode top = root;
-        while(top != null || !stack.isEmpty()){
-            if (top != null){
-                stack.push(top);
-                top = top.left;
+        while(root != null || !stack.isEmpty()){
+            if (root != null){
+                stack.push(root);
+                root = root.left;
             }else {
-                top = stack.pop();
-                list.add(top.val);
-                top = top.right;
+                root = stack.pop();
+                list.add(root.val);
+                root = root.right;
             }
         }
         return list;
