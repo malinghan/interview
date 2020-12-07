@@ -10,8 +10,10 @@ import java.util.Map;
  * @date Date : 2019年09月18日 1:16 AM
  **/
 public class HashingTest {
+    
 
     public static void main(String[] args) {
+        
         Map<DataKey, Integer> hm = HashingTest.getAllData();
 
         DataKey dk = new DataKey();

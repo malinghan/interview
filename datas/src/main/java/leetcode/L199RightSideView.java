@@ -10,7 +10,7 @@ import java.util.List;
  * @Description:
  * @date Date : 2020年11月23日 5:35 PM
  **/
-public class RightSideView {
+public class L199RightSideView {
     
     public List<Integer> rightSideView(TreeNode root){
         if(root == null){
@@ -43,6 +43,6 @@ public class RightSideView {
     
     public static void main(String[] args) {
         TreeNode root = null;
-        new RightSideView().rightSideView(root);
+        new L199RightSideView().rightSideView(root);
     }
 }
