@@ -1,7 +1,5 @@
 package data.linklist;
 
-import java.util.List;
-
 /**
  * @author : linghan.ma
  * @Package data.linklist
@@ -33,13 +31,11 @@ public class Reverse {
 
     public static int reverse(Node head){
         Node pre = null;
-        Node next = null;
         while (head!=null) {
-          next =  head.getNext();
+          Node next =  head.getNext();
           head.setNext(pre);
           pre = head;
           head = next;
-
         }
         return pre.getData();
     }
