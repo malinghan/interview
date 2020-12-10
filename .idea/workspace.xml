@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf9c7f46-5773-432b-a3b4-41763e7f2111" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datas/src/main/java/ratelimit/funnel/FunnelRateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datas/src/main/java/ratelimit/guava/LimiterDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datas/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,7 +104,7 @@
           <entry key="factories" value="2" />
           <entry key="gitignore" value="5" />
           <entry key="groovy" value="2" />
-          <entry key="java" value="1067" />
+          <entry key="java" value="1068" />
           <entry key="kt" value="2" />
           <entry key="md" value="244" />
           <entry key="out" value="2" />
@@ -112,7 +113,7 @@
           <entry key="properties" value="1" />
           <entry key="txt" value="5" />
           <entry key="xlass" value="4" />
-          <entry key="xml" value="62" />
+          <entry key="xml" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -120,14 +121,14 @@
           <entry key="CLASS" value="27" />
           <entry key="Git file" value="5" />
           <entry key="Image" value="7" />
-          <entry key="JAVA" value="1066" />
+          <entry key="JAVA" value="1067" />
           <entry key="Kotlin" value="2" />
           <entry key="Markdown" value="241" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="Properties" value="1" />
           <entry key="SPI" value="2" />
           <entry key="Scratch" value="4" />
-          <entry key="XML" value="63" />
+          <entry key="XML" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -135,17 +136,17 @@
           <entry key="Aobing" value="6" />
           <entry key="dummy" value="102" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="36802" />
+          <entry key="java" value="36845" />
           <entry key="kt" value="5" />
           <entry key="md" value="7105" />
           <entry key="properties" value="37" />
-          <entry key="xml" value="208" />
+          <entry key="xml" value="210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="36879" />
+          <entry key="JAVA" value="36922" />
           <entry key="Kotlin" value="5" />
           <entry key="Markdown" value="7018" />
           <entry key="PLAIN_TEXT" value="107" />
@@ -153,7 +154,7 @@
           <entry key="RegExp" value="1" />
           <entry key="SPI" value="6" />
           <entry key="Scratch" value="4" />
-          <entry key="XML" value="208" />
+          <entry key="XML" value="210" />
         </counts>
       </usages-collector>
     </session>
@@ -163,15 +164,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/InOrderDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datas/src/main/java/tree/PostOrderDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -208,11 +200,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datas/src/main/java/ratelimit/funnel/FunnelRateLimiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="116" column="26" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+            <state relative-caret-position="148">
+              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,11 +212,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datas/src/main/java/geektime/QuickSort.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datas/src/main/java/ratelimit/guava/LimiterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="205">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datas/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -322,7 +327,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/threads/src/main/java/com/someecho/leetcode/leetcode1115/CountDownLatchFooBar.java" />
         <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/strings/StringInterDemo.java" />
         <option value="$PROJECT_DIR$/jdks/src/main/java/com/someecho/strings/StringInternDemo.java" />
         <option value="$PROJECT_DIR$/threads/src/main/java/com/someecho/volatiles/VolatileDemo.java" />
@@ -368,11 +372,12 @@
         <option value="$PROJECT_DIR$/springboots/src/main/java/ratelimiter/DistributedLock.java" />
         <option value="$PROJECT_DIR$/springboots/src/main/java/ratelimiter/RateLimiter.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/ratelimit/RateLimiter.java" />
-        <option value="$PROJECT_DIR$/datas/pom.xml" />
         <option value="$PROJECT_DIR$/datas/src/main/java/ratelimit/ConfineManager.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/idworker/IdWorkerUtils.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/ratelimit/NamedThreadFactory.java" />
         <option value="$PROJECT_DIR$/datas/src/main/java/ratelimit/funnel/FunnelRateLimiter.java" />
+        <option value="$PROJECT_DIR$/datas/pom.xml" />
+        <option value="$PROJECT_DIR$/datas/src/main/java/ratelimit/guava/LimiterDemo.java" />
       </list>
     </option>
   </component>
@@ -481,6 +486,26 @@
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ratelimit" type="462c0819:PsiDirectoryNode" />
+              <item name="funnel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ratelimit" type="462c0819:PsiDirectoryNode" />
+              <item name="guava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="springboots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -505,7 +530,7 @@
     <property name="SearchEverywhereHistoryKey" value="ThreadPoolEx&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;parallelStream&#9;PSI&#9;JAVA://java.util.Collection#parallelStream&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Iterable&#9;PSI&#9;JAVA://java.lang.Iterable&#10;java.util.function.Supplier&#9;PSI&#9;JAVA://java.util.function.Supplier&#10;Fun&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java&#10;Consumer&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;Executor&#9;PSI&#9;JAVA://java.util.concurrent.Executor&#10;Predicate&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/function/Predicate.class&#10;BiF&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java&#10;Function&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/Function.java&#10;FunctionInterface&#9;PSI&#9;JAVA://java.lang.FunctionalInterface&#10;EnableAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;CglibProxyFactory&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/base/proxy0/AccountCglibProxyFactory.java&#10;ProxyFactory&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/base/proxy0/AccountProxyFactory.java&#10;synchronized&#9;PSI&#9;JAVA://lombok.Synchronized&#10;ReadWriteLo&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantReadWriteLock&#10;ReentrantL&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;AbstractQue&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;FutureS&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/jdks/src/main/java/com/someecho/proxy/FutureSetting.java&#10;Queue&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/Queue.class&#10;StackSolution&#9;PSI&#9;JAVA://geektime.StackSolution&#10;Palindrome&#9;PSI&#9;JAVA://geektime.Palindrome&#10;TextF&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/TextFile.java&#10;BufferOut&#9;PSI&#9;JAVA://java.io.BufferedOutputStream&#10;Process&#9;FILE&#9;file:///Users/malinghan/IdeaProjects/learning-space/interview/datas/src/main/java/net/mindview/util/ProcessFiles.java&#10;Class&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java&#10;Reen&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/locks/ReentrantLock.class&#10;java.lang.Cla&#9;PSI&#9;JAVA://java.lang.Class&#10;SkipList&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentSkipListMap&#10;LinkedHashMap&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;LRU&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/LRUCache.class&#10;LRUCache&#9;PSI&#9;JAVA://sun.misc.LRUCache&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;FixedThread&#9;PSI&#9;JAVA://java.util.concurrent.Executors#newFixedThreadPool&#10;ThreadPool&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;LinkNode&#9;PSI&#9;JAVA://java.util.LinkedHashMap#linkNodeLast&#10;HashSet&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java&#10;abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java&#10;Set&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Set.java&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;Integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;ArrayLis&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607577928470" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607578656291" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -557,7 +582,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunnelRateLimiter">
+  <component name="RunManager" selected="Application.LimiterDemo">
     <configuration name="ConsistentHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="geektime.ConsistentHash" />
       <module name="datas" />
@@ -571,12 +596,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.someecho.reflections1.Demo02" />
-      <module name="jdks" />
+    <configuration name="FunnelRateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ratelimit.funnel.FunnelRateLimiter" />
+      <module name="datas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.someecho.reflections1.*" />
+          <option name="PATTERN" value="ratelimit.funnel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -584,12 +609,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunnelRateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ratelimit.funnel.FunnelRateLimiter" />
+    <configuration name="LimiterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ratelimit.guava.LimiterDemo" />
       <module name="datas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ratelimit.funnel.*" />
+          <option name="PATTERN" value="ratelimit.guava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -624,19 +649,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo02" />
       <item itemvalue="Application.Reverse" />
       <item itemvalue="Application.ConsistentHash" />
       <item itemvalue="Application.PostOrderDemo" />
       <item itemvalue="Application.FunnelRateLimiter" />
+      <item itemvalue="Application.LimiterDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LimiterDemo" />
         <item itemvalue="Application.FunnelRateLimiter" />
         <item itemvalue="Application.PostOrderDemo" />
         <item itemvalue="Application.ConsistentHash" />
         <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.Demo02" />
       </list>
     </recent_temporary>
   </component>
@@ -759,7 +784,7 @@
       <workItem from="1607519384565" duration="3032000" />
       <workItem from="1607530567528" duration="599000" />
       <workItem from="1607575222306" duration="156000" />
-      <workItem from="1607576606989" duration="1238000" />
+      <workItem from="1607576606989" duration="1912000" />
     </task>
     <servers />
   </component>
@@ -796,7 +821,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="450237000" />
+    <option name="totallyTimeSpent" value="450911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -809,7 +834,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="84" y="95" width="1680" height="843" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3708087" visible="true" weight="0.257371" />
       <window_info id="Structure" order="1" sideWeight="0.62919134" side_tool="true" weight="0.3108108" />
@@ -822,12 +846,12 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31786075" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4963145" visible="true" weight="0.44398907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4963145" visible="true" weight="0.3456284" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49972752" weight="0.29166666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32970297" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4941957" weight="0.22675736" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4941957" weight="0.3169399" />
       <window_info anchor="bottom" id="Docker" order="8" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5036855" side_tool="true" weight="0.31292516" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.25436682" />
@@ -1070,13 +1094,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/base/bean/copy/BeanCopierUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jdks/src/main/java/com/someecho/proxy/InvokeContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1217,13 +1234,6 @@
             <caret line="4" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1402,10 +1412,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datas/src/main/java/ratelimit/funnel/FunnelRateLimiter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="116" column="26" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+        <state relative-caret-position="148">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/src/main/java/ratelimit/guava/LimiterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
           </folding>
         </state>
       </provider>
