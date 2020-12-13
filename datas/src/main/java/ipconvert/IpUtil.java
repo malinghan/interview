@@ -53,4 +53,24 @@ public class IpUtil {
         }
         return String.join(".", ipString);
     }
+    
+    /**
+     * 将int数字转换成ipv4地址
+     *
+     */
+    public static String integer2Ip(int ip) {
+        StringBuilder sb = new StringBuilder();
+        int num = 0;
+        boolean needPoint = false; // 是否需要加入'.'
+        for (int i = 0; i < 4; i++) {
+            if (needPoint) {
+                sb.append('.');
+            }
+            needPoint = true;
+            int offset = 8 * (3 - i);
+            num = (ip >> offset) & 0xff;
+            sb.append(num);
+        }
+        return sb.toString();
+    }
 }
