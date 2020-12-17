@@ -15,3 +15,13 @@
 
 # 多线程 `threads`
 
+# 排序
+
+- 冒泡排序
+- 选择排序
+- 插入排序
+- 归并排序 https://www.geeksforgeeks.org/merge-sort/
+- 快递排序
+- 堆排序
+- 计数排序
+
